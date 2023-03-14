@@ -8,6 +8,8 @@ Web services to perform three steps on german text, namely :
 
 The main working script is swagger_server/controllers/default_controller.py
 
+The CoNNL-U outputs are under Sample Output *.txt files and dependency parse trees compared in the *.html files
+
 ## Requirements
 Tested for Ubuntu 18.04
 ```
