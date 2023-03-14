@@ -1,7 +1,7 @@
 # Dependency Graph API
 
 ## Overview
-Web services to perform three tasks, namely :
+Web services to perform three steps on german text, namely :
 1. Generate CONLL-U from text
 2. Generate Dependency parse tree from CONLL-U
 3. Generate Dependency parse tree from a sentence
