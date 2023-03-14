@@ -6,6 +6,8 @@ Web services to perform three tasks, namely :
 2. Generate Dependency parse tree from CONLL-U
 3. Generate Dependency parse tree from a sentence
 
+The main working script is swagger_server/controllers/default_controller.py
+
 ## Requirements
 Tested for Ubuntu 18.04
 ```
