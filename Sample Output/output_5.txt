@@ -1,0 +1,3091 @@
+Kunde: Gruber.
+
+
+CorZu
+
+1	Gruber	Gruber	N	NE	_|_|Sg	0	root	_	-
+2	.	.	$.	$.	_	0	root	_	-
+
+
+
+ParZu
+
+1	Gruber	Gruber	N	NE	_|_|Sg	0	root	_	_
+2	.	.	$.	$.	_	0	root	_	_
+
+
+
+Stanford
+
+1	Gruber	Gruber	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	.	.	PUNCT	$.	_	1	punct	_	_
+
+
+
+NLPCube
+
+1	Gruber	gruber	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	SpaceAfter=No
+2	.	.	PUNCT	$.	_	1	punct	SpaceAfter=No
+
+
+SpaCy
+
+1	Gruber	_	NOUN	NN	_	1	ROOT	_	_
+1	.	_	PUNCT	$.	_	1	ROOT	_	_
+
+
+------------------------------------------------
+
+KKC Mitarbeiter: Hallo Bernhard, da ist die Alexandra.
+
+
+CorZu
+
+1	Hallo	Hallo	N	NN	Neut|_|Sg	5	vok	_	-
+2	Bernhard	Bernhard	N	NE	Masc|_|Sg	1	app	_	-
+3	,	,	$,	$,	_	0	root	_	-
+4	da	da	ADV	ADV	_	5	adv	_	-
+5	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	-
+6	die	die	ART	ART	Def|Fem|Nom|Sg	7	det	_	-
+7	Alexandra	Alexandra	N	NE	Fem|Nom|Sg	5	subj	_	-
+8	.	.	$.	$.	_	0	root	_	-
+
+
+
+ParZu
+
+1	Hallo	Hallo	N	NN	Neut|_|Sg	5	vok	_	_
+2	Bernhard	Bernhard	N	NE	Masc|_|Sg	1	app	_	_
+3	,	,	$,	$,	_	0	root	_	_
+4	da	da	ADV	ADV	_	5	adv	_	_
+5	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+6	die	die	ART	ART	Def|Fem|Nom|Sg	7	det	_	_
+7	Alexandra	Alexandra	N	NE	Fem|Nom|Sg	5	subj	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+
+
+Stanford
+
+1	Hallo	hallo	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	Bernhard	Bernhard	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
+3	,	,	PUNCT	$,	_	7	punct	_	_
+4	da	da	ADV	ADV	_	7	advmod	_	_
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Alexandra	Alexandra	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+
+
+NLPCube
+
+1	Hallo	Hallo	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_
+2	Bernhard	Bernhard	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_
+4	da	da	ADV	ADV	_	7	advmod	_
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_
+7	Alexandra	Alexandra	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	SpaceAfter=No
+8	.	.	PUNCT	$.	_	1	punct	SpaceAfter=No
+
+
+SpaCy
+
+1	Hallo	_	PROPN	NE	_	2	pnc	_	_
+2	Bernhard	_	PROPN	NE	_	5	sb	_	_
+3	,	_	PUNCT	$,	_	4	punct	_	_
+4	da	_	ADV	ADV	_	5	mo	_	_
+5	ist	_	AUX	VAFIN	_	5	ROOT	_	_
+6	die	_	DET	ART	_	7	nk	_	_
+7	Alexandra	_	PROPN	NE	_	5	pd	_	_
+8	.	_	PUNCT	$.	_	5	punct	_	_
+
+
+------------------------------------------------
+
+Kunde: Hallo.
+
+
+CorZu
+
+1	Hallo	hallo	ITJ	ITJ	_	0	root	_	-
+2	.	.	$.	$.	_	0	root	_	-
+
+
+
+ParZu
+
+1	Hallo	hallo	ITJ	ITJ	_	0	root	_	_
+2	.	.	$.	$.	_	0	root	_	_
+
+
+
+Stanford
+
+1	Hallo	hallo	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	.	.	PUNCT	$.	_	1	punct	_	_
+
+
+
+NLPCube
+
+1	Hallo	hallo	X	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	SpaceAfter=No
+2	.	.	PUNCT	$.	_	1	punct	SpaceAfter=No
+
+
+SpaCy
+
+1	Hallo	_	PROPN	NE	_	1	ROOT	_	_
+1	.	_	PUNCT	$.	_	1	ROOT	_	_
+
+
+------------------------------------------------
+
+KKC Mitarbeiter: Bernhard. Für die rechtliche Form der dieses Gespräch ist ein Testgespräch und darf aufgezeichnet werden für Tests damit wir, ja.
+
+
+CorZu
+
+1	Bernhard	Bernhard	N	NE	Masc|_|Sg	0	root	_	-
+2	.	.	$.	$.	_	0	root	_	-
+
+
+1	Für	für	PREP	APPR	Acc	0	root	_	-
+2	die	die	ART	ART	Def|Fem|Acc|Sg	4	det	_	-
+3	rechtliche	rechtlich	ADJA	ADJA	Pos|Fem|Acc|Sg|_|	4	attr	_	-
+4	Form	Form	N	NN	Fem|Acc|Sg	1	pn	_	-
+5	der	die	ART	ART	Def|_|_|_	0	root	_	-
+6	dieses	diese	ART	PDAT	Neut|Nom|Sg	7	det	_	-
+7	Gespräch	Gespräch	N	NN	Neut|Nom|Sg	8	subj	_	-
+8	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	-
+9	ein	eine	ART	ART	Indef|Neut|Nom|Sg	10	det	_	-
+10	Testgespräch	Testgespräch	N	NN	Neut|Nom|Sg	8	pred	_	-
+11	und	und	KON	KON	_	8	kon	_	-
+12	darf	dürfen	V	VMFIN	_|Sg|Pres|Ind	11	cj	_	-
+13	aufgezeichnet	aufzeichnen	V	VVPP	_	14	aux	_	-
+14	werden	werden	V	VAINF	_	12	aux	_	-
+15	für	für	PREP	APPR	Acc	13	pp	_	-
+16	Tests	Test	N	NN	Masc|Acc|Pl	15	pn	_	-
+17	damit	damit	PROAV	PROAV	_	13	pp	_	-
+18	wir	wir	PRO	PPER	1|Pl|_|Nom	0	root	_	-
+19	,	,	$,	$,	_	0	root	_	-
+20	ja	ja	ADV	ADV	_	0	root	_	-
+21	.	.	$.	$.	_	0	root	_	-
+
+
+
+ParZu
+
+1	Bernhard	Bernhard	N	NE	Masc|_|Sg	0	root	_	_
+2	.	.	$.	$.	_	0	root	_	_
+
+
+1	Für	für	PREP	APPR	Acc	0	root	_	_
+2	die	die	ART	ART	Def|Fem|Acc|Sg	4	det	_	_
+3	rechtliche	rechtlich	ADJA	ADJA	Pos|Fem|Acc|Sg|_|	4	attr	_	_
+4	Form	Form	N	NN	Fem|Acc|Sg	1	pn	_	_
+5	der	die	ART	ART	Def|_|_|_	0	root	_	_
+6	dieses	diese	ART	PDAT	Neut|Nom|Sg	7	det	_	_
+7	Gespräch	Gespräch	N	NN	Neut|Nom|Sg	8	subj	_	_
+8	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+9	ein	eine	ART	ART	Indef|Neut|Nom|Sg	10	det	_	_
+10	Testgespräch	Testgespräch	N	NN	Neut|Nom|Sg	8	pred	_	_
+11	und	und	KON	KON	_	8	kon	_	_
+12	darf	dürfen	V	VMFIN	_|Sg|Pres|Ind	11	cj	_	_
+13	aufgezeichnet	aufzeichnen	V	VVPP	_	14	aux	_	_
+14	werden	werden	V	VAINF	_	12	aux	_	_
+15	für	für	PREP	APPR	Acc	13	pp	_	_
+16	Tests	Test	N	NN	Masc|Acc|Pl	15	pn	_	_
+17	damit	damit	PROAV	PROAV	_	13	pp	_	_
+18	wir	wir	PRO	PPER	1|Pl|_|Nom	0	root	_	_
+19	,	,	$,	$,	_	0	root	_	_
+20	ja	ja	ADV	ADV	_	0	root	_	_
+21	.	.	$.	$.	_	0	root	_	_
+
+
+
+Stanford
+
+1	Bernhard	Bernhard	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	.	.	PUNCT	$.	_	1	punct	_	_
+
+1	Für	für	ADP	APPR	_	4	case	_	_
+2	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	rechtliche	rechtlich	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	4	amod	_	_
+4	Form	Form	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
+5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	dieses	dies	PRON	PDAT	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	7	det	_	_
+7	Gespräch	Gespräch	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	nmod	_	_
+8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+9	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Testgespräch	Testgespräch	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+11	und	und	CCONJ	KON	_	13	cc	_	_
+12	darf	dürfen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	aufgezeichnet	aufzeichnen	VERB	VVPP	VerbForm=Part	0	root	_	_
+14	werden	werden	AUX	VAINF	VerbForm=Inf|Voice=Pass	13	aux:pass	_	_
+15	für	für	ADP	APPR	_	16	case	_	_
+16	Tests	Test	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	13	obl	_	_
+17	damit	damit	ADV	PAV	_	16	advmod	_	_
+18	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj:pass	_	_
+19	,	,	PUNCT	$,	_	13	punct	_	_
+20	ja	ja	ADV	ADV	_	13	advmod	_	_
+21	.	.	PUNCT	$.	_	8	punct	_	_
+
+
+
+NLPCube
+
+1	Bernhard	Bernhard	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	SpaceAfter=No
+2	.	.	PUNCT	$.	_	1	punct	_
+1	Für	für	ADP	APPR	_	4	case	_
+2	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_
+3	rechtliche	rechtlich	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	4	amod	_
+4	Form	form	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	nmod	_
+5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_
+6	dieses	dies	PRON	PDAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	det	_
+7	Gespräch	gespräch	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nmod	_
+8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_
+9	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	10	det	_
+10	Testgespräch	testgespräch	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_
+11	und	und	CCONJ	KON	_	13	cc	_
+12	darf	dürfen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_
+13	aufgezeichnet	aufzeichnen	VERB	VVPP	VerbForm=Part	10	conj	_
+14	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	13	aux:pass	_
+15	für	für	ADP	APPR	_	16	case	_
+16	Tests	test	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	13	obl	_
+17	damit	damit	SCONJ	PAV	_	13	advmod	_
+18	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj:pass	SpaceAfter=No
+19	,	,	PUNCT	$,	_	13	punct	_
+20	ja	ja	ADV	$.	_	13	advmod	SpaceAfter=No
+21	.	.	PUNCT	$.	_	10	punct	SpaceAfter=No
+
+
+SpaCy
+
+1	Bernhard	_	PROPN	NE	_	1	ROOT	_	_
+2	.	_	PUNCT	$.	_	1	punct	_	_
+1	Für	_	ADP	APPR	_	8	mo	_	_
+2	die	_	DET	ART	_	4	nk	_	_
+3	rechtliche	_	ADJ	ADJA	_	4	nk	_	_
+4	Form	_	NOUN	NN	_	1	nk	_	_
+5	der	_	DET	ART	_	7	nk	_	_
+6	dieses	_	DET	PDAT	_	7	nk	_	_
+7	Gespräch	_	NOUN	NN	_	4	ag	_	_
+8	ist	_	AUX	VAFIN	_	8	ROOT	_	_
+9	ein	_	DET	ART	_	10	nk	_	_
+10	Testgespräch	_	NOUN	NN	_	8	sb	_	_
+11	und	_	CCONJ	KON	_	8	cd	_	_
+12	darf	_	VERB	VMFIN	_	11	cj	_	_
+13	aufgezeichnet	_	VERB	VVPP	_	14	oc	_	_
+14	werden	_	AUX	VAINF	_	12	oc	_	_
+15	für	_	ADP	APPR	_	13	mo	_	_
+16	Tests	_	NOUN	NN	_	15	nk	_	_
+17	damit	_	ADV	PROAV	_	16	mnr	_	_
+18	wir	_	PRON	PPER	_	12	sb	_	_
+19	,	_	PUNCT	$,	_	12	punct	_	_
+20	ja	_	PART	PTKANT	_	12	mo	_	_
+21	.	_	PUNCT	$.	_	8	punct	_	_
+
+
+------------------------------------------------
+
+Kunde: Natürlich.
+
+
+CorZu
+
+1	Natürlich	natürlich	ADV	ADJD	Pos|	0	root	_	-
+2	.	.	$.	$.	_	0	root	_	-
+
+
+
+ParZu
+
+1	Natürlich	natürlich	ADV	ADJD	Pos|	0	root	_	_
+2	.	.	$.	$.	_	0	root	_	_
+
+
+
+Stanford
+
+1	Natürlich	natürlich	ADJ	ADV	_	0	root	_	_
+2	.	.	PUNCT	$.	_	1	punct	_	_
+
+
+
+NLPCube
+
+1	Natürlich	natürlich	ADJ	ADV	_	0	root	SpaceAfter=No
+2	.	.	PUNCT	$.	_	1	punct	SpaceAfter=No
+
+
+SpaCy
+
+1	Natürlich	_	ADV	ADV	_	1	ROOT	_	_
+2	.	_	PUNCT	$.	_	1	punct	_	_
+
+
+------------------------------------------------
+
+KKC Mitarbeiter: Dankeschön. So jetzt habe ich gestottert auch noch. Ist ja sehr gut. Bernhard du hast bei uns angerufen, weil du deine Karte sperren möchtest?
+
+
+CorZu
+
+1	Dankeschön	Dankeschön	N	NN	Neut|_|Sg	0	root	_	-
+2	.	.	$.	$.	_	0	root	_	-
+
+
+1	So	so	ADV	ADV	_	2	adv	_	-
+2	jetzt	jetzt	ADV	ADV	_	3	adv	_	-
+3	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	-
+4	ich	ich	PRO	PPER	1|Sg|_|Nom	3	subj	_	-
+5	gestottert	stottern	V	VVPP	_	3	aux	_	-
+6	auch	auch	ADV	ADV	_	5	adv	_	-
+7	noch	noch	ADV	ADV	_	5	adv	_	-
+8	.	.	$.	$.	_	0	root	_	-
+
+
+1	Ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	-
+2	ja	ja	ADV	ADV	_	1	adv	_	-
+3	sehr	sehr	ADV	ADV	_	4	adv	_	-
+4	gut	gut	ADV	ADJD	Pos|	1	pred	_	-
+5	.	.	$.	$.	_	0	root	_	-
+
+
+1	Bernhard	Bernhard	N	NE	Masc|_|Sg	0	root	_	-
+2	du	du	PRO	PPER	2|Sg|_|Nom	3	subj	_	(0)
+3	hast	haben	V	VAFIN	2|Sg|Pres|Ind	0	root	_	-
+4	bei	bei	PREP	APPR	Dat	6	pp	_	-
+5	uns	wir	PRO	PPER	1|Pl|_|Dat	4	pn	_	-
+6	angerufen	anrufen	V	VVPP	_	3	aux	_	-
+7	,	,	$,	$,	_	0	root	_	-
+8	weil	weil	KOUS	KOUS	_	13	konj	_	-
+9	du	du	PRO	PPER	2|Sg|_|Nom	13	subj	_	(0)
+10	deine	deine	ART	PPOSAT	Fem|Acc|Sg	11	det	_	(0)
+11	Karte	Karte	N	NN	Fem|Acc|Sg	12	obja	_	-
+12	sperren	sperren	V	VVINF	_	13	aux	_	-
+13	möchtest	mögen	V	VMFIN	2|Sg|Past|Subj	3	neb	_	-
+14	?	?	$.	$.	_	0	root	_	-
+
+
+
+ParZu
+
+1	Dankeschön	Dankeschön	N	NN	Neut|_|Sg	0	root	_	_
+2	.	.	$.	$.	_	0	root	_	_
+
+
+1	So	so	ADV	ADV	_	2	adv	_	_
+2	jetzt	jetzt	ADV	ADV	_	3	adv	_	_
+3	habe	haben	V	VAFIN	1|Sg|Pres|_	0	root	_	_
+4	ich	ich	PRO	PPER	1|Sg|_|Nom	3	subj	_	_
+5	gestottert	stottern	V	VVPP	_	3	aux	_	_
+6	auch	auch	ADV	ADV	_	5	adv	_	_
+7	noch	noch	ADV	ADV	_	5	adv	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+
+1	Ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+2	ja	ja	ADV	ADV	_	1	adv	_	_
+3	sehr	sehr	ADV	ADV	_	4	adv	_	_
+4	gut	gut	ADV	ADJD	Pos|	1	pred	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+
+1	Bernhard	Bernhard	N	NE	Masc|_|Sg	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	3	subj	_	_
+3	hast	haben	V	VAFIN	2|Sg|Pres|Ind	0	root	_	_
+4	bei	bei	PREP	APPR	Dat	6	pp	_	_
+5	uns	wir	PRO	PPER	1|Pl|_|Dat	4	pn	_	_
+6	angerufen	anrufen	V	VVPP	_	3	aux	_	_
+7	,	,	$,	$,	_	0	root	_	_
+8	weil	weil	KOUS	KOUS	_	13	konj	_	_
+9	du	du	PRO	PPER	2|Sg|_|Nom	13	subj	_	_
+10	deine	deine	ART	PPOSAT	Fem|Acc|Sg	11	det	_	_
+11	Karte	Karte	N	NN	Fem|Acc|Sg	12	obja	_	_
+12	sperren	sperren	V	VVINF	_	13	aux	_	_
+13	möchtest	mögen	V	VMFIN	2|Sg|Past|Subj	3	neb	_	_
+14	?	?	$.	$.	_	0	root	_	_
+
+
+
+Stanford
+
+1	Dankeschön	Dankeschön	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+2	.	.	PUNCT	$.	_	1	punct	_	_
+
+1	So	so	ADV	ADV	_	2	advmod	_	_
+2	jetzt	jetzt	ADV	ADV	_	5	advmod	_	_
+3	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	gestottert	gestottert	VERB	VVPP	VerbForm=Fin	0	root	_	_
+6	auch	auch	ADV	ADV	_	7	advmod	_	_
+7	noch	noch	ADV	ADV	_	5	advmod	_	_
+8	.	.	PUNCT	$.	_	5	punct	_	_
+
+1	Ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	ja	ja	ADV	ADV	_	4	advmod	_	_
+3	sehr	sehr	ADV	ADV	_	4	advmod	_	_
+4	gut	gut	ADJ	ADJD	_	0	root	_	_
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+1	Bernhard	Bernhard	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
+3	hast	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	bei	bei	ADP	APPR	_	5	case	_	_
+5	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	6	obl	_	_
+6	angerufen	anrufen	VERB	VVPP	VerbForm=Part	0	root	_	_
+7	,	,	PUNCT	$,	_	6	punct	_	_
+8	weil	weil	SCONJ	KOUS	_	12	mark	_	_
+9	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	12	nsubj	_	_
+10	deine	dein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	11	det:poss	_	_
+11	Karte	Karte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+12	sperren	sperren	VERB	VVINF	VerbForm=Inf	6	advcl	_	_
+13	möchtest	möcht	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+14	?	?	PUNCT	$.	_	6	punct	_	_
+
+
+
+NLPCube
+
+1	Dankeschön	dankeschön	X	ADJD	_	0	root	SpaceAfter=No
+2	.	.	PUNCT	$.	_	1	punct	_
+1	So	so	ADV	ADV	_	2	advmod	_
+2	jetzt	jetzt	ADV	ADV	_	5	advmod	_
+3	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_
+5	gestottert	gestottert	ADV	VVPP	VerbForm=Part	0	root	_
+6	auch	auch	ADV	ADV	_	7	advmod	_
+7	noch	noch	ADV	ADV	_	5	advmod	SpaceAfter=No
+8	.	.	PUNCT	$.	_	5	punct	_
+1	Ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_
+2	ja	ja	ADV	ADV	_	4	advmod	_
+3	sehr	sehr	ADV	ADV	_	4	advmod	_
+4	gut	gut	ADJ	ADJD	_	0	root	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_
+1	Bernhard	Bernhard	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	1	flat	_
+3	hast	haben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_
+4	bei	bei	ADP	APPR	_	5	case	_
+5	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	6	obl	_
+6	angerufen	anrufen	VERB	VVPP	VerbForm=Part	0	root	SpaceAfter=No
+7	,	,	PUNCT	$,	_	6	punct	_
+8	weil	weil	SCONJ	KOUS	_	12	mark	_
+9	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	det	_
+10	deine	dein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	11	det	_
+11	Karte	karte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	nsubj	_
+12	sperren	sperren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_
+13	möchtest	möchtest	ADV	ADV	_	12	mark	SpaceAfter=No
+14	?	?	PUNCT	$.	_	6	punct	SpaceAfter=No
+
+
+SpaCy
+
+1	Dankeschön	_	NOUN	NN	_	1	ROOT	_	_
+1	.	_	PUNCT	$.	_	1	ROOT	_	_
+1	So	_	ADV	ADV	_	2	mo	_	_
+2	jetzt	_	ADV	ADV	_	5	mo	_	_
+3	habe	_	AUX	VAFIN	_	3	ROOT	_	_
+4	ich	_	PRON	PPER	_	3	sb	_	_
+5	gestottert	_	VERB	VVPP	_	3	oc	_	_
+6	auch	_	ADV	ADV	_	5	mo	_	_
+7	noch	_	ADV	ADV	_	5	mo	_	_
+8	.	_	PUNCT	$.	_	3	punct	_	_
+1	Ist	_	AUX	VAFIN	_	1	ROOT	_	_
+2	ja	_	ADV	ADV	_	1	mo	_	_
+3	sehr	_	ADV	ADV	_	4	mo	_	_
+4	gut	_	ADJ	ADJD	_	1	pd	_	_
+5	.	_	PUNCT	$.	_	1	punct	_	_
+1	Bernhard	_	PROPN	NE	_	2	pnc	_	_
+2	du	_	PRON	PPER	_	3	sb	_	_
+3	hast	_	AUX	VAFIN	_	3	ROOT	_	_
+4	bei	_	ADP	APPR	_	6	mo	_	_
+5	uns	_	PRON	PPER	_	4	nk	_	_
+6	angerufen	_	VERB	VVPP	_	3	oc	_	_
+7	,	_	PUNCT	$,	_	6	punct	_	_
+8	weil	_	SCONJ	KOUS	_	13	cp	_	_
+9	du	_	PRON	PPER	_	13	sb	_	_
+10	deine	_	DET	PPOSAT	_	11	nk	_	_
+11	Karte	_	NOUN	NN	_	12	oa	_	_
+12	sperren	_	VERB	VVINF	_	13	oc	_	_
+13	möchtest	_	VERB	VMFIN	_	6	mo	_	_
+14	?	_	PUNCT	$.	_	3	punct	_	_
+
+
+------------------------------------------------
+
+Kunde: Ja.
+
+
+CorZu
+
+1	Ja	ja	PTKANT	PTKANT	_	0	root	_	-
+2	.	.	$.	$.	_	0	root	_	-
+
+
+
+ParZu
+
+1	Ja	ja	PTKANT	PTKANT	_	0	root	_	_
+2	.	.	$.	$.	_	0	root	_	_
+
+
+
+Stanford
+
+1	Ja.	Ja.	PUNCT	$(	_	0	root	_	_
+
+
+
+NLPCube
+
+1	Ja	ja	ADJ	ADV	_	0	root	SpaceAfter=No
+2	.	.	PUNCT	$.	_	1	punct	SpaceAfter=No
+
+
+SpaCy
+
+1	Ja	_	PART	PTKANT	_	1	ROOT	_	_
+2	.	_	PUNCT	$.	_	1	punct	_	_
+
+
+------------------------------------------------
+
+KKC Mitarbeiter: Darf ich dich um ein paar Daten bitten?
+
+
+CorZu
+
+1	Darf	dürfen	V	VMFIN	1|Sg|Pres|Ind	0	root	_	-
+2	ich	ich	PRO	PPER	1|Sg|_|Nom	1	subj	_	-
+3	dich	du	PRO	PPER	2|Sg|_|Acc	8	obja	_	-
+4	um	um	PREP	APPR	_	8	objp	_	-
+5	ein	eine	ART	ART	Indef|_|_|Sg	7	det	_	-
+6	paar	paar	ART	PIDAT	_|_|Pl	7	attr	_	-
+7	Daten	Daten	N	NN	_|_|Pl	4	pn	_	-
+8	bitten	bitten	V	VVINF	_	1	aux	_	-
+9	?	?	$.	$.	_	0	root	_	-
+
+
+
+ParZu
+
+1	Darf	dürfen	V	VMFIN	1|Sg|Pres|Ind	0	root	_	_
+2	ich	ich	PRO	PPER	1|Sg|_|Nom	1	subj	_	_
+3	dich	du	PRO	PPER	2|Sg|_|Acc	8	obja	_	_
+4	um	um	PREP	APPR	_	8	objp	_	_
+5	ein	eine	ART	ART	Indef|_|_|Sg	7	det	_	_
+6	paar	paar	ART	PIDAT	_|_|Pl	7	attr	_	_
+7	Daten	Daten	N	NN	_|_|Pl	4	pn	_	_
+8	bitten	bitten	V	VVINF	_	1	aux	_	_
+9	?	?	$.	$.	_	0	root	_	_
+
+
+
+Stanford
+
+1	Darf	dürfen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+3	dich	du	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obj	_	_
+4	um	um	ADP	APPR	_	7	case	_	_
+5	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+6	paar	paar	PRON	PIAT	Definite=Ind|PronType=Ind	7	det	_	_
+7	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	8	obl	_	_
+8	bitten	bitten	VERB	VVINF	VerbForm=Inf	0	root	_	_
+9	?	?	PUNCT	$.	_	8	punct	_	_
+
+
+
+NLPCube
+
+1	Darf	dürfen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_
+3	dich	dich	PRON	PRF	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	8	obj	_
+4	um	um	ADP	APPR	_	7	case	_
+5	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	7	det	_
+6	paar	paar	PRON	PIAT	Definite=Ind|PronType=Ind	7	det	_
+7	Daten	datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	8	obl	_
+8	bitten	bitten	VERB	VVINF	VerbForm=Inf	0	root	SpaceAfter=No
+9	?	?	PUNCT	$.	_	8	punct	SpaceAfter=No
+
+
+SpaCy
+
+1	Darf	_	VERB	VMFIN	_	1	ROOT	_	_
+2	ich	_	PRON	PPER	_	1	sb	_	_
+3	dich	_	PRON	PRF	_	8	oa	_	_
+4	um	_	ADP	APPR	_	8	mo	_	_
+5	ein	_	DET	ART	_	6	nk	_	_
+6	paar	_	DET	PIAT	_	7	nk	_	_
+7	Daten	_	NOUN	NN	_	4	nk	_	_
+8	bitten	_	VERB	VVINF	_	1	oc	_	_
+9	?	_	PUNCT	$.	_	1	punct	_	_
+
+
+------------------------------------------------
+
+Kunde: Natürlich.
+
+
+CorZu
+
+1	Natürlich	natürlich	ADV	ADJD	Pos|	0	root	_	-
+2	.	.	$.	$.	_	0	root	_	-
+
+
+
+ParZu
+
+1	Natürlich	natürlich	ADV	ADJD	Pos|	0	root	_	_
+2	.	.	$.	$.	_	0	root	_	_
+
+
+
+Stanford
+
+1	Natürlich	natürlich	ADJ	ADV	_	0	root	_	_
+2	.	.	PUNCT	$.	_	1	punct	_	_
+
+
+
+NLPCube
+
+1	Natürlich	natürlich	ADJ	ADV	_	0	root	SpaceAfter=No
+2	.	.	PUNCT	$.	_	1	punct	SpaceAfter=No
+
+
+SpaCy
+
+1	Natürlich	_	ADV	ADV	_	1	ROOT	_	_
+2	.	_	PUNCT	$.	_	1	punct	_	_
+
+
+------------------------------------------------
+
+KKC Mitarbeiter: Sehr schön. Um welche Kontonummer handelt es sich denn?
+
+
+CorZu
+
+1	Sehr	sehr	ADV	ADV	_	2	adv	_	-
+2	schön	schön	ADV	ADJD	Pos|	0	root	_	-
+3	.	.	$.	$.	_	0	root	_	-
+
+
+1	Um	um	PREP	APPR	Acc	4	objp	_	-
+2	welche	welche	ART	PWAT	Fem|Acc|Sg	3	det	_	-
+3	Kontonummer	Kontonummer	N	NN	Fem|Acc|Sg	1	pn	_	-
+4	handelt	handeln	V	VVFIN	3|Sg|Pres|Ind	0	root	_	-
+5	es	es	PRO	PPER	3|Sg|Neut|Nom	4	subj	_	-
+6	sich	sie	PRO	PRF	3|_|Acc	4	obja	_	-
+7	denn	denn	ADV	ADV	_	4	adv	_	-
+8	?	?	$.	$.	_	0	root	_	-
+
+
+
+ParZu
+
+1	Sehr	sehr	ADV	ADV	_	2	adv	_	_
+2	schön	schön	ADV	ADJD	Pos|	0	root	_	_
+3	.	.	$.	$.	_	0	root	_	_
+
+
+1	Um	um	PREP	APPR	Acc	4	objp	_	_
+2	welche	welche	ART	PWAT	Fem|Acc|Sg	3	det	_	_
+3	Kontonummer	Kontonummer	N	NN	Fem|Acc|Sg	1	pn	_	_
+4	handelt	handeln	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+5	es	es	PRO	PPER	3|Sg|Neut|Nom	4	subj	_	_
+6	sich	sie	PRO	PRF	3|_|Acc	4	obja	_	_
+7	denn	denn	ADV	ADV	_	4	adv	_	_
+8	?	?	$.	$.	_	0	root	_	_
+
+
+
+Stanford
+
+1	Sehr	sehr	ADV	ADV	_	2	advmod	_	_
+2	schön	schön	ADJ	ADJD	_	0	root	_	_
+3	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Um	um	ADP	KOUI	_	3	case	_	_
+2	welche	welch	PRON	PWAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	3	det	_	_
+3	Kontonummer	Kontonummer	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+4	handelt	handeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+6	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	_
+7	denn	denn	ADV	ADV	_	4	advmod	_	_
+8	?	?	PUNCT	$.	_	4	punct	_	_
+
+
+
+NLPCube
+
+1	Sehr	sehr	ADV	ADV	_	2	advmod	_
+2	schön	schön	ADJ	ADJD	_	0	root	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_
+1	Um	um	ADP	APPR	_	3	case	_
+2	welche	welch	PRON	PWAT	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_
+3	Kontonummer	kontonummer	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_
+4	handelt	handeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_
+6	sich	ersesie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	obj	_
+7	denn	denn	ADV	ADV	_	4	advmod	SpaceAfter=No
+8	?	?	PUNCT	$.	_	4	punct	SpaceAfter=No
+
+
+SpaCy
+
+1	Sehr	_	ADV	ADV	_	2	mo	_	_
+2	schön	_	ADJ	ADJD	_	2	ROOT	_	_
+3	.	_	PUNCT	$.	_	2	punct	_	_
+1	Um	_	ADP	APPR	_	4	op	_	_
+2	welche	_	DET	PWAT	_	3	nk	_	_
+3	Kontonummer	_	NOUN	NN	_	1	nk	_	_
+4	handelt	_	VERB	VVFIN	_	4	ROOT	_	_
+5	es	_	PRON	PPER	_	4	ep	_	_
+6	sich	_	PRON	PRF	_	4	oa	_	_
+7	denn	_	ADV	ADV	_	4	mo	_	_
+8	?	_	PUNCT	$.	_	4	punct	_	_
+
+
+------------------------------------------------
+
+Kunde: Das ist 116 85 90 
+
+
+CorZu
+
+1	Das	die	PRO	PDS	Neut|Nom|Sg	2	subj	_	-
+2	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	-
+3	116	116	CARD	CARD	_	5	attr	_	-
+4	85	85	CARD	CARD	_	5	attr	_	-
+5	90	90	CARD	CARD	_|_|Pl	2	obja	_	-
+
+
+
+ParZu
+
+1	Das	die	PRO	PDS	Neut|Nom|Sg	2	subj	_	_
+2	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+3	116	116	CARD	CARD	_	5	attr	_	_
+4	85	85	CARD	CARD	_	5	attr	_	_
+5	90	90	CARD	CARD	_|_|Pl	2	obja	_	_
+
+
+
+Stanford
+
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	116	116	NUM	CARD	NumType=Card	4	nummod	_	_
+4	85	85	NUM	CARD	NumType=Card	5	nummod	_	_
+5	90	90	PROPN	CARD	NumType=Card	0	root	_	_
+
+
+
+NLPCube
+
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_
+3	116	116	NUM	CARD	NumType=Card	5	nummod	_
+4	85	85	NUM	CARD	NumType=Card	5	nummod	_
+5	90	90	NUM	CARD	NumType=Card	0	root	_
+
+
+SpaCy
+
+1	Das	_	PRON	PDS	_	2	sb	_	_
+2	ist	_	AUX	VAFIN	_	2	ROOT	_	_
+3	116	_	NUM	CARD	_	5	nmc	_	_
+4	85	_	NUM	CARD	_	5	nmc	_	_
+5	90	_	NUM	CARD	_	2	pd	_	_
+
+
+------------------------------------------------
+
+KKC Mitarbeiter: Gibt es auf diese Kontonummer mehrere Karten, mehrere Folgenummern?
+
+
+CorZu
+
+1	Gibt	geben	V	VVFIN	3|Sg|Pres|Ind	0	root	_	-
+2	es	es	PRO	PPER	3|Sg|Neut|Nom	1	subj	_	-
+3	auf	auf	PREP	APPR	Acc	2	pp	_	-
+4	diese	diese	ART	PDAT	Fem|Acc|Sg	5	det	_	-
+5	Kontonummer	Kontonummer	N	NN	Fem|Acc|Sg	3	pn	_	-
+6	mehrere	mehrere	ART	PIAT	_|Acc|_	7	det	_	-
+7	Karten	Karte	N	NN	_|Acc|_	1	obja	_	-
+8	,	,	$,	$,	_	0	root	_	-
+9	mehrere	mehrere	ART	PIAT	Fem|Acc|Pl	10	det	_	-
+10	Folgenummern	Folgenummer	N	NN	Fem|Acc|Pl	7	app	_	-
+11	?	?	$.	$.	_	0	root	_	-
+
+
+
+ParZu
+
+1	Gibt	geben	V	VVFIN	3|Sg|Pres|Ind	0	root	_	_
+2	es	es	PRO	PPER	3|Sg|Neut|Nom	1	subj	_	_
+3	auf	auf	PREP	APPR	Acc	2	pp	_	_
+4	diese	diese	ART	PDAT	Fem|Acc|Sg	5	det	_	_
+5	Kontonummer	Kontonummer	N	NN	Fem|Acc|Sg	3	pn	_	_
+6	mehrere	mehrere	ART	PIAT	_|Acc|_	7	det	_	_
+7	Karten	Karte	N	NN	_|Acc|_	1	obja	_	_
+8	,	,	$,	$,	_	0	root	_	_
+9	mehrere	mehrere	ART	PIAT	Fem|Acc|Pl	10	det	_	_
+10	Folgenummern	Folgenummer	N	NN	Fem|Acc|Pl	7	app	_	_
+11	?	?	$.	$.	_	0	root	_	_
+
+
+
+Stanford
+
+1	Gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
+3	auf	auf	ADP	APPR	_	5	case	_	_
+4	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	Kontonummer	Kontonummer	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	_
+6	mehrere	mehrere	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	7	det	_	_
+7	Karten	Karte	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	1	nsubj	_	_
+8	,	,	PUNCT	$,	_	7	punct	_	_
+9	mehrere	mehrere	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	10	det	_	_
+10	Folgenummern	Folgenummern	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	appos	_	_
+11	?	?	PUNCT	$.	_	1	punct	_	_
+
+
+
+NLPCube
+
+1	Gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	expl	_
+3	auf	auf	ADP	APPR	_	5	case	_
+4	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	5	det	_
+5	Kontonummer	kontonummer	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obl	_
+6	mehrere	mehrere	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	7	det	_
+7	Karten	karte	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	1	nsubj	SpaceAfter=No
+8	,	,	PUNCT	$,	_	1	punct	_
+9	mehrere	mehrere	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	10	det	_
+10	Folgenummern	folgenummern	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	1	appos	SpaceAfter=No
+11	?	?	PUNCT	$.	_	1	punct	SpaceAfter=No
+
+
+SpaCy
+
+1	Gibt	_	VERB	VVFIN	_	1	ROOT	_	_
+2	es	_	PRON	PPER	_	1	ep	_	_
+3	auf	_	ADP	APPR	_	1	mo	_	_
+4	diese	_	DET	PDAT	_	5	nk	_	_
+5	Kontonummer	_	NOUN	NN	_	3	nk	_	_
+6	mehrere	_	DET	PIAT	_	7	nk	_	_
+7	Karten	_	NOUN	NN	_	1	oa	_	_
+8	,	_	PUNCT	$,	_	7	punct	_	_
+9	mehrere	_	DET	PIAT	_	10	nk	_	_
+10	Folgenummern	_	NOUN	NN	_	7	cj	_	_
+11	?	_	PUNCT	$.	_	1	punct	_	_
+
+
+------------------------------------------------
+
+Kunde: Nein
+
+
+CorZu
+
+1	Nein	nein	PTKANT	PTKANT	_	0	root	_	-
+
+
+
+ParZu
+
+1	Nein	nein	PTKANT	PTKANT	_	0	root	_	_
+
+
+
+Stanford
+
+1	Nein	nein	PUNCT	$(	_	0	root	_	_
+
+
+
+NLPCube
+
+1	Nein	nein	PART	PTKANT	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	0	root	SpaceAfter=No
+
+
+SpaCy
+
+1	Nein	_	PART	PTKANT	_	1	ROOT	_	_
+
+
+------------------------------------------------
+
+KKC Mitarbeiter: Nur eine.
+
+
+CorZu
+
+1	Nur	nur	ADV	ADV	_	2	adv	_	-
+2	eine	eine	PRO	PIS	_|_|Sg	0	root	_	-
+3	.	.	$.	$.	_	0	root	_	-
+
+
+
+ParZu
+
+1	Nur	nur	ADV	ADV	_	2	adv	_	_
+2	eine	eine	PRO	PIS	_|_|Sg	0	root	_	_
+3	.	.	$.	$.	_	0	root	_	_
+
+
+
+Stanford
+
+1	Nur	nur	ADV	ADV	_	2	advmod	_	_
+2	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	root	_	_
+3	.	.	PUNCT	$.	_	2	punct	_	_
+
+
+
+NLPCube
+
+1	Nur	nur	ADV	ADV	_	2	advmod	_
+2	eine	eine	NUM	PIS	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	root	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	SpaceAfter=No
+
+
+SpaCy
+
+1	Nur	_	ADV	ADV	_	2	mo	_	_
+2	eine	_	PRON	PIS	_	2	ROOT	_	_
+3	.	_	PUNCT	$.	_	2	punct	_	_
+
+
+------------------------------------------------
+
+Kunde: Also jetzt auf des dem Konto nur die eine Debitkarte meinst du jetzt?
+
+
+CorZu
+
+1	Also	also	ADV	ADV	_	3	adv	_	-
+2	jetzt	jetzt	ADV	ADV	_	3	adv	_	-
+3	auf	auf	PREP	APPR	_	0	root	_	-
+4	des	die	ART	ART	Def|_|Gen|Sg	0	root	_	-
+5	dem	die	ART	ART	Def|Neut|Dat|Sg	6	det	_	-
+6	Konto	Konto	N	NN	Neut|Dat|Sg	0	root	_	-
+7	nur	nur	ADV	ADV	_	6	adv	_	-
+8	die	die	ART	ART	Def|_|_|_	0	root	_	-
+9	eine	eine	ART	ART	Indef|Fem|Acc|Sg	10	det	_	-
+10	Debitkarte	Debitkarte	N	NN	Fem|Acc|Sg	11	obja	_	-
+11	meinst	meinen	V	VVFIN	2|Sg|Pres|Ind	0	root	_	-
+12	du	du	PRO	PPER	2|Sg|_|Nom	11	subj	_	-
+13	jetzt	jetzt	ADV	ADV	_	11	adv	_	-
+14	?	?	$.	$.	_	0	root	_	-
+
+
+
+ParZu
+
+1	Also	also	ADV	ADV	_	3	adv	_	_
+2	jetzt	jetzt	ADV	ADV	_	3	adv	_	_
+3	auf	auf	PREP	APPR	_	0	root	_	_
+4	des	die	ART	ART	Def|_|Gen|Sg	0	root	_	_
+5	dem	die	ART	ART	Def|Neut|Dat|Sg	6	det	_	_
+6	Konto	Konto	N	NN	Neut|Dat|Sg	0	root	_	_
+7	nur	nur	ADV	ADV	_	6	adv	_	_
+8	die	die	ART	ART	Def|_|_|_	0	root	_	_
+9	eine	eine	ART	ART	Indef|Fem|Acc|Sg	10	det	_	_
+10	Debitkarte	Debitkarte	N	NN	Fem|Acc|Sg	11	obja	_	_
+11	meinst	meinen	V	VVFIN	2|Sg|Pres|Ind	0	root	_	_
+12	du	du	PRO	PPER	2|Sg|_|Nom	11	subj	_	_
+13	jetzt	jetzt	ADV	ADV	_	11	adv	_	_
+14	?	?	$.	$.	_	0	root	_	_
+
+
+
+Stanford
+
+1	Also	also	ADV	ADV	_	2	advmod	_	_
+2	jetzt	jetzt	ADV	ADV	_	11	advmod	_	_
+3	auf	auf	ADP	APPR	_	6	case	_	_
+4	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Konto	Konto	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	_
+7	nur	nur	ADV	ADV	_	11	advmod	_	_
+8	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Debitkarte	Debitkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+11	meinst	meinst	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	_	_
+13	jetzt	jetzt	ADV	ADV	_	11	advmod	_	_
+14	?	?	PUNCT	$.	_	11	punct	_	_
+
+
+
+NLPCube
+
+1	Also	also	ADV	ADV	_	2	advmod	_
+2	jetzt	jetzt	ADV	ADV	_	0	root	_
+3	auf	auf	ADP	APPR	_	6	case	_
+4	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_
+6	Konto	konto	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_
+7	nur	nur	ADV	ADV	_	10	advmod	_
+8	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_
+9	eine	ein	DET	ADJA	Case=Nom|Gender=Fem|Number=Sing	10	det	_
+10	Debitkarte	debitkarte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_
+11	meinst	meinst	ADV	VVFIN	_	12	advmod	_
+12	du	du	PROPN	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nmod	_
+13	jetzt	jetzt	ADV	ADV	_	12	advmod	SpaceAfter=No
+14	?	?	PUNCT	$.	_	12	punct	SpaceAfter=No
+
+
+SpaCy
+
+1	Also	_	ADV	ADV	_	2	mo	_	_
+2	jetzt	_	ADV	ADV	_	11	mo	_	_
+3	auf	_	ADP	APPR	_	2	mo	_	_
+4	des	_	DET	ART	_	6	nk	_	_
+5	dem	_	DET	ART	_	6	nk	_	_
+6	Konto	_	NOUN	NN	_	3	nk	_	_
+7	nur	_	ADV	ADV	_	10	mo	_	_
+8	die	_	DET	ART	_	10	nk	_	_
+9	eine	_	DET	ART	_	10	nk	_	_
+10	Debitkarte	_	NOUN	NN	_	11	oa	_	_
+11	meinst	_	VERB	VVFIN	_	11	ROOT	_	_
+12	du	_	PRON	PPER	_	11	sb	_	_
+13	jetzt	_	ADV	ADV	_	11	mo	_	_
+14	?	_	PUNCT	$.	_	11	punct	_	_
+
+
+------------------------------------------------
+
+KKC Mitarbeiter: Nur nur die eine Debikarte, ja
+
+
+CorZu
+
+1	Nur	nur	ADV	ADV	_	2	adv	_	-
+2	nur	nur	ADV	ADV	_	0	root	_	-
+3	die	die	ART	ART	Def|_|_|_	0	root	_	-
+4	eine	eine	ART	ART	Indef|Fem|_|Sg	5	det	_	-
+5	Debikarte	Debikarte	N	NN	Fem|_|Sg	0	root	_	-
+6	,	,	$,	$,	_	0	root	_	-
+7	ja	ja	ADV	ADV	_	0	root	_	-
+
+
+
+ParZu
+
+1	Nur	nur	ADV	ADV	_	2	adv	_	_
+2	nur	nur	ADV	ADV	_	0	root	_	_
+3	die	die	ART	ART	Def|_|_|_	0	root	_	_
+4	eine	eine	ART	ART	Indef|Fem|_|Sg	5	det	_	_
+5	Debikarte	Debikarte	N	NN	Fem|_|Sg	0	root	_	_
+6	,	,	$,	$,	_	0	root	_	_
+7	ja	ja	ADV	ADV	_	0	root	_	_
+
+
+
+Stanford
+
+1	Nur	nur	ADV	ADV	_	2	advmod	_	_
+2	nur	nur	ADV	ADV	_	5	advmod	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Debikarte	Debikarte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	ja	ja	ADV	ADV	_	5	appos	_	_
+
+
+
+NLPCube
+
+1	Nur	nur	ADV	ADV	_	3	advmod	_
+2	nur	nur	ADV	ADV	_	3	advmod	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	nsubj	_
+4	eine	ein	DET	ADJA	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_
+5	Debikarte	debikarte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_
+7	ja	ja	ADV	ADV	_	5	advmod	SpaceAfter=No
+
+
+SpaCy
+
+1	Nur	_	ADV	ADV	_	5	mo	_	_
+2	nur	_	ADV	ADV	_	5	mo	_	_
+3	die	_	DET	ART	_	5	nk	_	_
+4	eine	_	DET	ART	_	5	nk	_	_
+5	Debikarte	_	NOUN	NN	_	5	ROOT	_	_
+6	,	_	PUNCT	$,	_	5	punct	_	_
+7	ja	_	PART	PTKANT	_	5	mo	_	_
+
+
+------------------------------------------------
+
+Kunde: Ja
+
+
+CorZu
+
+1	Ja	ja	PTKANT	PTKANT	_	0	root	_	-
+
+
+
+ParZu
+
+1	Ja	ja	PTKANT	PTKANT	_	0	root	_	_
+
+
+
+Stanford
+
+1	Ja	Ja	ADV	ADV	_	0	root	_	_
+
+
+
+NLPCube
+
+1	Ja	ja	ADV	ADV	_	0	root	SpaceAfter=No
+
+
+SpaCy
+
+1	Ja	_	PART	PTKANT	_	1	ROOT	_	_
+
+
+------------------------------------------------
+
+KKC Mitarbeiter: Und Bankleitzahl ist 39000 . Ist das korrekt?
+
+
+CorZu
+
+1	Und	und	KON	KON	_	0	root	_	-
+2	Bankleitzahl	Bankleitzahl	N	NN	Fem|Nom|Sg	3	subj	_	-
+3	ist	sein	V	VAFIN	3|Sg|Pres|Ind	1	cj	_	-
+4	39000	39000	CARD	CARD	_	3	objd	_	-
+5	.	.	$.	$.	_	0	root	_	-
+
+
+1	Ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	-
+2	das	die	PRO	PDS	Neut|Nom|Sg	1	subj	_	-
+3	korrekt	korrekt	ADV	ADJD	Pos|	1	pred	_	-
+4	?	?	$.	$.	_	0	root	_	-
+
+
+
+ParZu
+
+1	Und	und	KON	KON	_	0	root	_	_
+2	Bankleitzahl	Bankleitzahl	N	NN	Fem|Nom|Sg	3	subj	_	_
+3	ist	sein	V	VAFIN	3|Sg|Pres|Ind	1	cj	_	_
+4	39000	39000	CARD	CARD	_	3	objd	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+
+1	Ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+2	das	die	PRO	PDS	Neut|Nom|Sg	1	subj	_	_
+3	korrekt	korrekt	ADV	ADJD	Pos|	1	pred	_	_
+4	?	?	$.	$.	_	0	root	_	_
+
+
+
+Stanford
+
+1	Und	und	CCONJ	KON	_	4	cc	_	_
+2	Bankleitzahl	Bankleitzahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	39000	39000	NUM	CARD	NumType=Card	0	root	_	_
+5	.	.	PUNCT	$.	_	8	punct	_	_
+6	Ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	8	nsubj	_	_
+8	korrekt	korrekt	ADJ	ADJD	_	4	conj	_	_
+9	?	?	PUNCT	$.	_	8	punct	_	_
+
+
+
+NLPCube
+
+1	Und	und	CCONJ	KON	_	4	cc	_
+2	Bankleitzahl	bankleitzahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_
+4	39000	39000	NUM	CARD	NumType=Card	0	root	_
+5	.	.	PUNCT	$.	_	4	punct	_
+1	Ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_
+2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_
+3	korrekt	korrekt	ADJ	ADJD	_	0	root	SpaceAfter=No
+4	?	?	PUNCT	$.	_	3	punct	SpaceAfter=No
+
+
+SpaCy
+
+1	Und	_	CCONJ	KON	_	3	ju	_	_
+2	Bankleitzahl	_	NOUN	NN	_	3	sb	_	_
+3	ist	_	AUX	VAFIN	_	3	ROOT	_	_
+4	39000	_	NUM	CARD	_	3	pd	_	_
+5	.	_	PUNCT	$.	_	3	punct	_	_
+1	Ist	_	AUX	VAFIN	_	1	ROOT	_	_
+2	das	_	PRON	PDS	_	1	sb	_	_
+3	korrekt	_	ADJ	ADJD	_	1	pd	_	_
+4	?	_	PUNCT	$.	_	1	punct	_	_
+
+
+------------------------------------------------
+
+Kunde: Ja.
+
+
+CorZu
+
+1	Ja	ja	PTKANT	PTKANT	_	0	root	_	-
+2	.	.	$.	$.	_	0	root	_	-
+
+
+
+ParZu
+
+1	Ja	ja	PTKANT	PTKANT	_	0	root	_	_
+2	.	.	$.	$.	_	0	root	_	_
+
+
+
+Stanford
+
+1	Ja.	Ja.	PUNCT	$(	_	0	root	_	_
+
+
+
+NLPCube
+
+1	Ja	ja	ADJ	ADV	_	0	root	SpaceAfter=No
+2	.	.	PUNCT	$.	_	1	punct	SpaceAfter=No
+
+
+SpaCy
+
+1	Ja	_	PART	PTKANT	_	1	ROOT	_	_
+2	.	_	PUNCT	$.	_	1	punct	_	_
+
+
+------------------------------------------------
+
+KKC Mitarbeiter: War es ein Diebstahl oder ein Verlust?
+
+
+CorZu
+
+1	War	sein	V	VAFIN	3|Sg|Past|Ind	0	root	_	-
+2	es	es	PRO	PPER	3|Sg|Neut|Nom	1	subj	_	-
+3	ein	eine	ART	ART	Indef|Masc|Nom|Sg	4	det	_	-
+4	Diebstahl	Diebstahl	N	NN	Masc|Nom|Sg	1	pred	_	-
+5	oder	oder	KON	KON	_	4	kon	_	-
+6	ein	eine	ART	ART	Indef|Masc|Nom|Sg	7	det	_	-
+7	Verlust	Verlust	N	NN	Masc|Nom|Sg	5	cj	_	-
+8	?	?	$.	$.	_	0	root	_	-
+
+
+
+ParZu
+
+1	War	sein	V	VAFIN	3|Sg|Past|Ind	0	root	_	_
+2	es	es	PRO	PPER	3|Sg|Neut|Nom	1	subj	_	_
+3	ein	eine	ART	ART	Indef|Masc|Nom|Sg	4	det	_	_
+4	Diebstahl	Diebstahl	N	NN	Masc|Nom|Sg	1	pred	_	_
+5	oder	oder	KON	KON	_	4	kon	_	_
+6	ein	eine	ART	ART	Indef|Masc|Nom|Sg	7	det	_	_
+7	Verlust	Verlust	N	NN	Masc|Nom|Sg	5	cj	_	_
+8	?	?	$.	$.	_	0	root	_	_
+
+
+
+Stanford
+
+1	War	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Diebstahl	Diebstahl	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+5	oder	oder	CCONJ	KON	_	7	cc	_	_
+6	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Verlust	Verlust	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+8	?	?	PUNCT	$.	_	4	punct	_	_
+
+
+
+NLPCube
+
+1	War	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_
+4	Diebstahl	diebstahl	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_
+5	oder	oder	CCONJ	KON	_	7	cc	_
+6	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_
+7	Verlust	verlust	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	conj	SpaceAfter=No
+8	?	?	PUNCT	$.	_	4	punct	SpaceAfter=No
+
+
+SpaCy
+
+1	War	_	AUX	VAFIN	_	1	ROOT	_	_
+2	es	_	PRON	PPER	_	1	sb	_	_
+3	ein	_	DET	ART	_	4	nk	_	_
+4	Diebstahl	_	NOUN	NN	_	1	pd	_	_
+5	oder	_	CCONJ	KON	_	4	cd	_	_
+6	ein	_	DET	ART	_	7	nk	_	_
+7	Verlust	_	NOUN	NN	_	5	cj	_	_
+8	?	_	PUNCT	$.	_	1	punct	_	_
+
+
+------------------------------------------------
+
+Kunde: Ein Diebstahl.
+
+
+CorZu
+
+1	Ein	ein	ART	ART	Indef|Masc|Nom|Sg	2	det	_	-
+2	Diebstahl	Diebstahl	N	NN	Masc|Nom|Sg	0	root	_	-
+3	.	.	$.	$.	_	0	root	_	-
+
+
+
+ParZu
+
+1	Ein	ein	ART	ART	Indef|Masc|Nom|Sg	2	det	_	_
+2	Diebstahl	Diebstahl	N	NN	Masc|Nom|Sg	0	root	_	_
+3	.	.	$.	$.	_	0	root	_	_
+
+
+
+Stanford
+
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Diebstahl	Diebstahl	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	.	.	PUNCT	$.	_	2	punct	_	_
+
+
+
+NLPCube
+
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_
+2	Diebstahl	diebstahl	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	SpaceAfter=No
+
+
+SpaCy
+
+1	Ein	_	DET	ART	_	2	nk	_	_
+2	Diebstahl	_	NOUN	NN	_	2	ROOT	_	_
+3	.	_	PUNCT	$.	_	2	punct	_	_
+
+
+------------------------------------------------
+
+KKC Mitarbeiter: Ein Diebstahl. Kannst du noch sagen wann er war und in welchem Ort oder Land?
+
+
+CorZu
+
+1	Ein	ein	ART	ART	Indef|Masc|Nom|Sg	2	det	_	(0
+2	Diebstahl	Diebstahl	N	NN	Masc|Nom|Sg	0	root	_	0)
+3	.	.	$.	$.	_	0	root	_	-
+
+
+1	Kannst	können	V	VMFIN	2|Sg|Pres|Ind	0	root	_	-
+2	du	du	PRO	PPER	2|Sg|_|Nom	1	subj	_	-
+3	noch	noch	ADV	ADV	_	4	adv	_	-
+4	sagen	sagen	V	VVINF	_	1	aux	_	-
+5	wann	wann	PWAV	PWAV	_	7	adv	_	-
+6	er	er	PRO	PPER	3|Sg|Masc|Nom	7	subj	_	(0)
+7	war	sein	V	VAFIN	3|Sg|Past|Ind	4	objc	_	-
+8	und	und	KON	KON	_	0	root	_	-
+9	in	in	PREP	APPR	Dat	8	cj	_	-
+10	welchem	welche	ART	PWAT	_|Dat|Sg	11	det	_	-
+11	Ort	Ort	N	NN	_|Dat|Sg	9	pn	_	-
+12	oder	oder	KON	KON	_	11	kon	_	-
+13	Land	Land	N	NN	Neut|Dat|Sg	12	cj	_	-
+14	?	?	$.	$.	_	0	root	_	-
+
+
+
+ParZu
+
+1	Ein	ein	ART	ART	Indef|Masc|Nom|Sg	2	det	_	_
+2	Diebstahl	Diebstahl	N	NN	Masc|Nom|Sg	0	root	_	_
+3	.	.	$.	$.	_	0	root	_	_
+
+
+1	Kannst	können	V	VMFIN	2|Sg|Pres|Ind	0	root	_	_
+2	du	du	PRO	PPER	2|Sg|_|Nom	1	subj	_	_
+3	noch	noch	ADV	ADV	_	4	adv	_	_
+4	sagen	sagen	V	VVINF	_	1	aux	_	_
+5	wann	wann	PWAV	PWAV	_	7	adv	_	_
+6	er	er	PRO	PPER	3|Sg|Masc|Nom	7	subj	_	_
+7	war	sein	V	VAFIN	3|Sg|Past|Ind	4	objc	_	_
+8	und	und	KON	KON	_	0	root	_	_
+9	in	in	PREP	APPR	Dat	8	cj	_	_
+10	welchem	welche	ART	PWAT	_|Dat|Sg	11	det	_	_
+11	Ort	Ort	N	NN	_|Dat|Sg	9	pn	_	_
+12	oder	oder	KON	KON	_	11	kon	_	_
+13	Land	Land	N	NN	Neut|Dat|Sg	12	cj	_	_
+14	?	?	$.	$.	_	0	root	_	_
+
+
+
+Stanford
+
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Diebstahl	Diebstahl	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Kannst	Kannst	AUX	VMFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+3	noch	noch	ADV	ADV	_	4	advmod	_	_
+4	sagen	sagen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+5	wann	wann	SCONJ	KOUS	PronType=Int	7	mark	_	_
+6	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	ccomp	_	_
+8	und	und	CCONJ	KON	_	11	cc	_	_
+9	in	in	ADP	APPR	_	11	case	_	_
+10	welchem	welch	PRON	PWAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Int	11	det	_	_
+11	Ort	Ort	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	conj	_	_
+12	oder	oder	CCONJ	KON	_	13	cc	_	_
+13	Land	Land	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	conj	_	_
+14	?	?	PUNCT	$.	_	4	punct	_	_
+
+
+
+NLPCube
+
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_
+2	Diebstahl	diebstahl	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_
+1	Kannst	kannst	PRON	PWS	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	mark	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_
+3	noch	noch	ADV	ADV	_	4	advmod	_
+4	sagen	sagen	VERB	VVINF	VerbForm=Inf	0	root	_
+5	wann	wann	ADV	VVFIN	PronType=Int	4	advmod	_
+6	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_
+7	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_
+8	und	und	CCONJ	KON	_	13	cc	_
+9	in	in	ADP	APPR	_	11	case	_
+10	welchem	welch	PRON	PWAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	11	det	_
+11	Ort	ort	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	conj	_
+12	oder	oder	CCONJ	KON	_	13	cc	_
+13	Land	land	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	conj	SpaceAfter=No
+14	?	?	PUNCT	$.	_	4	punct	SpaceAfter=No
+
+
+SpaCy
+
+1	Ein	_	DET	ART	_	2	nk	_	_
+2	Diebstahl	_	NOUN	NN	_	2	ROOT	_	_
+3	.	_	PUNCT	$.	_	2	punct	_	_
+1	Kannst	_	VERB	VMFIN	_	1	ROOT	_	_
+2	du	_	PRON	PPER	_	1	sb	_	_
+3	noch	_	ADV	ADV	_	1	mo	_	_
+4	sagen	_	VERB	VVINF	_	1	oc	_	_
+5	wann	_	ADV	PWAV	_	4	mo	_	_
+6	er	_	PRON	PPER	_	7	sb	_	_
+7	war	_	AUX	VAFIN	_	4	oc	_	_
+8	und	_	CCONJ	KON	_	7	cd	_	_
+9	in	_	ADP	APPR	_	8	cj	_	_
+10	welchem	_	DET	PWAT	_	11	nk	_	_
+11	Ort	_	NOUN	NN	_	9	nk	_	_
+12	oder	_	CCONJ	KON	_	11	cd	_	_
+13	Land	_	NOUN	NN	_	12	cj	_	_
+14	?	_	PUNCT	$.	_	1	punct	_	_
+
+
+------------------------------------------------
+
+Kunde: War gestern Abend in Klagenfurt 21:45 
+
+
+CorZu
+
+1	War	sein	V	VAFIN	3|Sg|Past|Ind	0	root	_	-
+2	gestern	gestern	ADV	ADV	_	1	adv	_	-
+3	Abend	Abend	N	NN	Masc|Nom|Sg	1	subj	_	-
+4	in	in	PREP	APPR	_	1	pp	_	-
+5	Klagenfurt	Klagenfurt	N	NN	Fem|_|Sg	4	pn	_	-
+6	21	21	CARD	CARD	_	5	app	_	-
+7	:	\:	$.	$.	_	0	root	_	-
+8	45	45	CARD	CARD	_	0	root	_	-
+
+
+
+ParZu
+
+1	War	sein	V	VAFIN	3|Sg|Past|Ind	0	root	_	_
+2	gestern	gestern	ADV	ADV	_	1	adv	_	_
+3	Abend	Abend	N	NN	Masc|Nom|Sg	1	subj	_	_
+4	in	in	PREP	APPR	_	1	pp	_	_
+5	Klagenfurt	Klagenfurt	N	NN	Fem|_|Sg	4	pn	_	_
+6	21	21	CARD	CARD	_	5	app	_	_
+7	:	\:	$.	$.	_	0	root	_	_
+8	45	45	CARD	CARD	_	0	root	_	_
+
+
+
+Stanford
+
+1	War	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	gestern	gestern	ADJ	ADJA	Gender=Masc|Number=Sing	3	amod	_	_
+3	Abend	Abend	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+4	in	in	ADP	APPR	_	5	case	_	_
+5	Klagenfurt	Klagenfurt	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	1	obl	_	_
+6	21:45	21:45	NUM	CARD	NumType=Card	5	appos	_	_
+
+
+
+NLPCube
+
+1	War	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_
+2	gestern	gust	VERB	ADJA	Case=Acc|Gender=Masc|Number=Sing	3	det	_
+3	Abend	abend	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	1	nsubj	_
+4	in	in	ADP	APPR	_	5	case	_
+5	Klagenfurt	Klagenfurt	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	1	obl	_
+6	21:45	21:45	NUM	CARD	NumType=Card	5	appos	_
+
+
+SpaCy
+
+1	War	_	AUX	VAFIN	_	1	ROOT	_	_
+2	gestern	_	ADV	ADV	_	1	mo	_	_
+3	Abend	_	NOUN	NN	_	1	mo	_	_
+4	in	_	ADP	APPR	_	1	mo	_	_
+5	Klagenfurt	_	PROPN	NE	_	4	nk	_	_
+1	21:45	_	NUM	CARD	_	1	ROOT	_	_
+
+
+------------------------------------------------
+
+KKC Mitarbeiter: Der letzte Karteneinsatz war im Inland oder im Ausland?
+
+
+CorZu
+
+1	Der	die	ART	ART	Def|Masc|Nom|Sg	3	det	_	-
+2	letzte	letzte	ADJA	ADJA	Pos|Masc|Nom|Sg|Wk|	3	attr	_	-
+3	Karteneinsatz	Karteneinsatz	N	NN	Masc|Nom|Sg	4	subj	_	-
+4	war	sein	V	VAFIN	3|Sg|Past|Ind	0	root	_	-
+5	im	in	PREP	APPRART	Dat	4	pp	_	-
+6	Inland	Inland	N	NN	Neut|Dat|Sg	5	pn	_	-
+7	oder	oder	KON	KON	_	5	kon	_	-
+8	im	in	PREP	APPRART	Dat	7	cj	_	-
+9	Ausland	Ausland	N	NN	Neut|Dat|Sg	8	pn	_	-
+10	?	?	$.	$.	_	0	root	_	-
+
+
+
+ParZu
+
+1	Der	die	ART	ART	Def|Masc|Nom|Sg	3	det	_	_
+2	letzte	letzte	ADJA	ADJA	Pos|Masc|Nom|Sg|Wk|	3	attr	_	_
+3	Karteneinsatz	Karteneinsatz	N	NN	Masc|Nom|Sg	4	subj	_	_
+4	war	sein	V	VAFIN	3|Sg|Past|Ind	0	root	_	_
+5	im	in	PREP	APPRART	Dat	4	pp	_	_
+6	Inland	Inland	N	NN	Neut|Dat|Sg	5	pn	_	_
+7	oder	oder	KON	KON	_	5	kon	_	_
+8	im	in	PREP	APPRART	Dat	7	cj	_	_
+9	Ausland	Ausland	N	NN	Neut|Dat|Sg	8	pn	_	_
+10	?	?	$.	$.	_	0	root	_	_
+
+
+
+Stanford
+
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	letzte	letzt	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
+3	Karteneinsatz	Karteneinsatz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5-6	im	_	_	_	_	_	_	_	_
+5	in	in	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Inland	Inland	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	_
+8	oder	oder	CCONJ	KON	_	11	cc	_	_
+9-10	im	_	_	_	_	_	_	_	_
+9	in	in	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Ausland	Ausland	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	conj	_	_
+12	?	?	PUNCT	$.	_	4	punct	_	_
+
+
+
+NLPCube
+
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_
+2	letzte	letzt	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	3	amod	_
+3	Karteneinsatz	karteneinsatz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_
+4	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_
+5	im	_	ADP	_	_	6	advmod	_
+6	Inland	Inland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	0	root	_
+7	oder	oder	CCONJ	KON	_	9	cc	_
+8	im	_	_	_	_	9	advmod	_
+9	Ausland	ausland	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	conj	SpaceAfter=No
+10	?	?	PUNCT	$.	_	6	punct	SpaceAfter=No
+
+
+SpaCy
+
+1	Der	_	DET	ART	_	3	nk	_	_
+2	letzte	_	ADJ	ADJA	_	3	nk	_	_
+3	Karteneinsatz	_	NOUN	NN	_	4	sb	_	_
+4	war	_	AUX	VAFIN	_	4	ROOT	_	_
+5	im	_	ADP	APPRART	_	4	mo	_	_
+6	Inland	_	NOUN	NN	_	5	nk	_	_
+7	oder	_	CCONJ	KON	_	5	cd	_	_
+8	im	_	ADP	APPRART	_	7	cj	_	_
+9	Ausland	_	NOUN	NN	_	8	nk	_	_
+10	?	_	PUNCT	$.	_	4	punct	_	_
+
+
+------------------------------------------------
+
+Kunde: Im Inland.
+
+
+CorZu
+
+1	Im	in	PREP	APPRART	Dat	0	root	_	-
+2	Inland	Inland	N	NN	Neut|Dat|Sg	1	pn	_	-
+3	.	.	$.	$.	_	0	root	_	-
+
+
+
+ParZu
+
+1	Im	in	PREP	APPRART	Dat	0	root	_	_
+2	Inland	Inland	N	NN	Neut|Dat|Sg	1	pn	_	_
+3	.	.	$.	$.	_	0	root	_	_
+
+
+
+Stanford
+
+1-2	Im	_	_	_	_	_	_	_	_
+1	In	in	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Inland	Inland	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	0	root	_	_
+4	.	.	PUNCT	$.	_	3	punct	_	_
+
+
+
+NLPCube
+
+1	Im	_	_	_	_	2	amod	_
+2	Inland	Inland	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	SpaceAfter=No
+
+
+SpaCy
+
+1	Im	_	ADP	APPRART	_	1	ROOT	_	_
+2	Inland	_	NOUN	NN	_	1	nk	_	_
+3	.	_	PUNCT	$.	_	2	punct	_	_
+
+
+------------------------------------------------
+
+KKC Mitarbeiter: Die letzten vierundzwanzig Stunden, sieben Tage oder ist es schon länger her?
+
+
+CorZu
+
+1	Die	die	ART	ART	Def|Fem|_|Pl	4	det	_	-
+2	letzten	letzte	ADJA	ADJA	Pos|Fem|_|Pl|Wk|	4	attr	_	-
+3	vierundzwanzig	vierundzwanzig	CARD	CARD	_	4	attr	_	-
+4	Stunden	Stunde	N	NN	Fem|_|Pl	0	root	_	-
+5	,	,	$,	$,	_	0	root	_	-
+6	sieben	sieben	CARD	CARD	_	7	attr	_	-
+7	Tage	Tag	N	NN	Masc|_|Pl	0	root	_	-
+8	oder	oder	KON	KON	_	0	root	_	-
+9	ist	sein	V	VAFIN	3|Sg|Pres|Ind	8	cj	_	-
+10	es	es	PRO	PPER	3|Sg|Neut|Acc	9	obja	_	-
+11	schon	schon	ADV	ADV	_	9	adv	_	-
+12	länger	lang	ADV	ADJD	Comp|	9	adv	_	-
+13	her	her	PTKVZ	PTKVZ	_	9	avz	_	-
+14	?	?	$.	$.	_	0	root	_	-
+
+
+
+ParZu
+
+1	Die	die	ART	ART	Def|Fem|_|Pl	4	det	_	_
+2	letzten	letzte	ADJA	ADJA	Pos|Fem|_|Pl|Wk|	4	attr	_	_
+3	vierundzwanzig	vierundzwanzig	CARD	CARD	_	4	attr	_	_
+4	Stunden	Stunde	N	NN	Fem|_|Pl	0	root	_	_
+5	,	,	$,	$,	_	0	root	_	_
+6	sieben	sieben	CARD	CARD	_	7	attr	_	_
+7	Tage	Tag	N	NN	Masc|_|Pl	0	root	_	_
+8	oder	oder	KON	KON	_	0	root	_	_
+9	ist	sein	V	VAFIN	3|Sg|Pres|Ind	8	cj	_	_
+10	es	es	PRO	PPER	3|Sg|Neut|Acc	9	obja	_	_
+11	schon	schon	ADV	ADV	_	9	adv	_	_
+12	länger	lang	ADV	ADJD	Comp|	9	adv	_	_
+13	her	her	PTKVZ	PTKVZ	_	9	avz	_	_
+14	?	?	$.	$.	_	0	root	_	_
+
+
+
+Stanford
+
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+2	letzten	letzt	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	4	amod	_	_
+3	vierundzwanzig	vierundzwanzig	NUM	CARD	NumType=Card	4	nummod	_	_
+4	Stunden	Stunde|Stunden	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+5	,	,	PUNCT	$,	_	7	punct	_	_
+6	sieben	sieben	NUM	CARD	NumType=Card	7	nummod	_	_
+7	Tage	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	conj	_	_
+8	oder	oder	CCONJ	KON	_	9	cc	_	_
+9	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	_
+11	schon	schon	ADV	ADV	_	12	advmod	_	_
+12	länger	lang	ADV	ADJD	_	9	advmod	_	_
+13	her	her	ADV	ADV	_	9	compound:prt	_	_
+14	?	?	PUNCT	$.	_	9	punct	_	_
+
+
+
+NLPCube
+
+1	Die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	4	det	_
+2	letzten	letzt	ADJ	ADJA	Case=Nom|Number=Plur	4	amod	_
+3	vierundzwanzig	vierundzwanzig	NUM	CARD	NumType=Card	4	nummod	_
+4	Stunden	stundeestunden	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	12	nsubj	SpaceAfter=No
+5	,	,	PUNCT	$,	_	7	punct	_
+6	sieben	sieben	NUM	CARD	NumType=Card	7	nummod	_
+7	Tage	tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	conj	_
+8	oder	oder	CCONJ	KON	_	12	cc	_
+9	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_
+10	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_
+11	schon	schon	ADV	ADV	_	12	advmod	_
+12	länger	lang	ADJ	ADJD	_	0	root	_
+13	her	her	ADV	PTKVZ	_	12	compound:prt	SpaceAfter=No
+14	?	?	PUNCT	$.	_	12	punct	SpaceAfter=No
+
+
+SpaCy
+
+1	Die	_	DET	ART	_	4	nk	_	_
+2	letzten	_	ADJ	ADJA	_	4	nk	_	_
+3	vierundzwanzig	_	NUM	CARD	_	4	nk	_	_
+4	Stunden	_	NOUN	NN	_	4	ROOT	_	_
+5	,	_	PUNCT	$,	_	4	punct	_	_
+6	sieben	_	NUM	CARD	_	7	nk	_	_
+7	Tage	_	NOUN	NN	_	4	cj	_	_
+8	oder	_	CCONJ	KON	_	7	cd	_	_
+9	ist	_	AUX	VAFIN	_	8	cj	_	_
+10	es	_	PRON	PPER	_	9	sb	_	_
+11	schon	_	ADV	ADV	_	12	mo	_	_
+12	länger	_	ADJ	ADJD	_	9	mo	_	_
+13	her	_	ADP	PTKVZ	_	9	svp	_	_
+14	?	_	PUNCT	$.	_	4	punct	_	_
+
+
+------------------------------------------------
+
+Kunde: Nein, das war gestern am Vormittag.
+
+
+CorZu
+
+1	Nein	nein	PTKANT	PTKANT	_	0	root	_	-
+2	,	,	$,	$,	_	0	root	_	-
+3	das	die	PRO	PDS	Neut|Nom|Sg	4	subj	_	-
+4	war	sein	V	VAFIN	3|Sg|Past|Ind	0	root	_	-
+5	gestern	gestern	ADV	ADV	_	4	adv	_	-
+6	am	an	PREP	APPRART	Dat	4	pp	_	-
+7	Vormittag	Vormittag	N	NN	_|Dat|Sg	6	pn	_	-
+8	.	.	$.	$.	_	0	root	_	-
+
+
+
+ParZu
+
+1	Nein	nein	PTKANT	PTKANT	_	0	root	_	_
+2	,	,	$,	$,	_	0	root	_	_
+3	das	die	PRO	PDS	Neut|Nom|Sg	4	subj	_	_
+4	war	sein	V	VAFIN	3|Sg|Past|Ind	0	root	_	_
+5	gestern	gestern	ADV	ADV	_	4	adv	_	_
+6	am	an	PREP	APPRART	Dat	4	pp	_	_
+7	Vormittag	Vormittag	N	NN	_|Dat|Sg	6	pn	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+
+
+Stanford
+
+1	Nein	nein	ADJ	ADJD	_	4	appos	_	_
+2	,	,	PUNCT	$,	_	1	punct	_	_
+3	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
+4	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	gestern	gestern	ADV	ADV	_	4	advmod	_	_
+6-7	am	_	_	_	_	_	_	_	_
+6	an	an	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Vormittag	Vormittag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
+9	.	.	PUNCT	$.	_	4	punct	_	_
+
+
+
+NLPCube
+
+1	Nein	nein	PART	PTKANT	_	7	advmod	SpaceAfter=No
+2	,	,	PUNCT	$,	_	7	punct	_
+3	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_
+4	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_
+5	gestern	gestern	ADV	ADV	_	6	case	_
+6	am	_	_	_	_	7	nmod	_
+7	Vormittag	vormittag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	0	root	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	SpaceAfter=No
+
+
+SpaCy
+
+1	Nein	_	PART	PTKANT	_	4	dm	_	_
+2	,	_	PUNCT	$,	_	4	punct	_	_
+3	das	_	PRON	PDS	_	4	sb	_	_
+4	war	_	AUX	VAFIN	_	4	ROOT	_	_
+5	gestern	_	ADV	ADV	_	4	mo	_	_
+6	am	_	ADP	APPRART	_	4	mo	_	_
+7	Vormittag	_	NOUN	NN	_	6	nk	_	_
+8	.	_	PUNCT	$.	_	4	punct	_	_
+
+
+------------------------------------------------
+
+KKC Mitarbeiter: Gestern am Vormittag. Darf ich dich um deinen Vornamen und Familiennamen bitten?
+
+
+CorZu
+
+1	Gestern	gestern	ADV	ADV	_	2	adv	_	-
+2	am	an	PREP	APPRART	Dat	0	root	_	-
+3	Vormittag	Vormittag	N	NN	_|Dat|Sg	2	pn	_	-
+4	.	.	$.	$.	_	0	root	_	-
+
+
+1	Darf	dürfen	V	VMFIN	1|Sg|Pres|Ind	0	root	_	-
+2	ich	ich	PRO	PPER	1|Sg|_|Nom	1	subj	_	-
+3	dich	du	PRO	PPER	2|Sg|_|Acc	9	obja	_	(0)
+4	um	um	PREP	APPR	_	9	objp	_	-
+5	deinen	deine	ART	PPOSAT	Masc|_|_	6	det	_	(0)
+6	Vornamen	Vorname	N	NN	Masc|_|_	4	pn	_	-
+7	und	und	KON	KON	_	6	kon	_	-
+8	Familiennamen	Familienname	N	NN	Masc|_|_	7	cj	_	-
+9	bitten	bitten	V	VVINF	_	1	aux	_	-
+10	?	?	$.	$.	_	0	root	_	-
+
+
+
+ParZu
+
+1	Gestern	gestern	ADV	ADV	_	2	adv	_	_
+2	am	an	PREP	APPRART	Dat	0	root	_	_
+3	Vormittag	Vormittag	N	NN	_|Dat|Sg	2	pn	_	_
+4	.	.	$.	$.	_	0	root	_	_
+
+
+1	Darf	dürfen	V	VMFIN	1|Sg|Pres|Ind	0	root	_	_
+2	ich	ich	PRO	PPER	1|Sg|_|Nom	1	subj	_	_
+3	dich	du	PRO	PPER	2|Sg|_|Acc	9	obja	_	_
+4	um	um	PREP	APPR	_	9	objp	_	_
+5	deinen	deine	ART	PPOSAT	Masc|_|_	6	det	_	_
+6	Vornamen	Vorname	N	NN	Masc|_|_	4	pn	_	_
+7	und	und	KON	KON	_	6	kon	_	_
+8	Familiennamen	Familienname	N	NN	Masc|_|_	7	cj	_	_
+9	bitten	bitten	V	VVINF	_	1	aux	_	_
+10	?	?	$.	$.	_	0	root	_	_
+
+
+
+Stanford
+
+1	Gestern	Gestern	NOUN	NN	_	0	root	_	_
+2-3	am	_	_	_	_	_	_	_	_
+2	an	an	ADP	APPR	_	4	case	_	_
+3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Vormittag	Vormittag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	nmod	_	_
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+1	Darf	dürfen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+3	dich	du	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obj	_	_
+4	um	um	ADP	APPR	_	6	case	_	_
+5	deinen	dein	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	6	det:poss	_	_
+6	Vornamen	Vorname	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
+7	und	und	CCONJ	KON	_	8	cc	_	_
+8	Familiennamen	Familienname	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	conj	_	_
+9	bitten	bitten	VERB	VVINF	VerbForm=Inf	0	root	_	_
+10	?	?	PUNCT	$.	_	9	punct	_	_
+
+
+
+NLPCube
+
+1	Gestern	gester	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	3	advmod	_
+2	am	_	_	_	_	3	compound	_
+3	Vormittag	vormittag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	0	root	SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_
+1	Darf	dürfen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_
+3	dich	ee	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	9	obj	_
+4	um	um	ADP	APPR	_	6	case	_
+5	deinen	dein	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	6	det	_
+6	Vornamen	vorname	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obl	_
+7	und	und	CCONJ	KON	_	8	cc	_
+8	Familiennamen	familienname	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	conj	_
+9	bitten	bitten	VERB	VVINF	VerbForm=Inf	0	root	SpaceAfter=No
+10	?	?	PUNCT	$.	_	9	punct	SpaceAfter=No
+
+
+SpaCy
+
+1	Gestern	_	ADV	ADV	_	1	ROOT	_	_
+2	am	_	ADP	APPRART	_	1	mo	_	_
+3	Vormittag	_	NOUN	NN	_	2	nk	_	_
+4	.	_	PUNCT	$.	_	1	punct	_	_
+1	Darf	_	VERB	VMFIN	_	1	ROOT	_	_
+2	ich	_	PRON	PPER	_	1	sb	_	_
+3	dich	_	PRON	PRF	_	9	oa	_	_
+4	um	_	ADP	APPR	_	9	op	_	_
+5	deinen	_	DET	PPOSAT	_	6	nk	_	_
+6	Vornamen	_	NOUN	NN	_	4	nk	_	_
+7	und	_	CCONJ	KON	_	6	cd	_	_
+8	Familiennamen	_	NOUN	NN	_	7	cj	_	_
+9	bitten	_	VERB	VVINF	_	1	oc	_	_
+10	?	_	PUNCT	$.	_	1	punct	_	_
+
+
+------------------------------------------------
+
+Kunde: Ja, Bernhard Gruber.
+
+
+CorZu
+
+1	Ja	ja	PTKANT	PTKANT	_	0	root	_	-
+2	,	,	$,	$,	_	0	root	_	-
+3	Bernhard	Bernhard	N	NE	Masc|_|Sg	0	root	_	-
+4	Gruber	Gruber	N	NE	_|_|Sg	3	app	_	-
+5	.	.	$.	$.	_	0	root	_	-
+
+
+
+ParZu
+
+1	Ja	ja	PTKANT	PTKANT	_	0	root	_	_
+2	,	,	$,	$,	_	0	root	_	_
+3	Bernhard	Bernhard	N	NE	Masc|_|Sg	0	root	_	_
+4	Gruber	Gruber	N	NE	_|_|Sg	3	app	_	_
+5	.	.	$.	$.	_	0	root	_	_
+
+
+
+Stanford
+
+1	Ja	Ja	ADV	ADV	_	3	advmod	_	_
+2	,	,	PUNCT	$,	_	1	punct	_	_
+3	Bernhard	Bernhard	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+4	Gruber	Gruber	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	_
+5	.	.	PUNCT	$.	_	3	punct	_	_
+
+
+
+NLPCube
+
+1	Ja	ja	ADJ	ADV	_	3	advmod	SpaceAfter=No
+2	,	,	PUNCT	$,	_	3	punct	_
+3	Bernhard	Bernhard	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_
+4	Gruber	Gruber	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	flat	SpaceAfter=No
+5	.	.	PUNCT	$.	_	3	punct	SpaceAfter=No
+
+
+SpaCy
+
+1	Ja	_	PART	PTKANT	_	4	dm	_	_
+2	,	_	PUNCT	$,	_	4	punct	_	_
+3	Bernhard	_	PROPN	NE	_	4	pnc	_	_
+4	Gruber	_	PROPN	NE	_	4	ROOT	_	_
+5	.	_	PUNCT	$.	_	4	punct	_	_
+
+
+------------------------------------------------
+
+KKC Mitarbeiter: Um geboren bist du wann bitte?
+
+
+CorZu
+
+1	Um	Um	KOUI	KOUI	_	0	root	_	-
+2	geboren	gebären	V	VVPP	_	3	aux	_	-
+3	bist	sein	V	VAFIN	2|Sg|Pres|Ind	0	root	_	-
+4	du	du	PRO	PPER	2|Sg|_|Nom	3	subj	_	-
+5	wann	wann	PWAV	PWAV	_	6	adv	_	-
+6	bitte	bitten	V	VVFIN	_|Sg|Pres|_	0	root	_	-
+7	?	?	$.	$.	_	0	root	_	-
+
+
+
+ParZu
+
+1	Um	Um	KOUI	KOUI	_	0	root	_	_
+2	geboren	gebären	V	VVPP	_	3	aux	_	_
+3	bist	sein	V	VAFIN	2|Sg|Pres|Ind	0	root	_	_
+4	du	du	PRO	PPER	2|Sg|_|Nom	3	subj	_	_
+5	wann	wann	PWAV	PWAV	_	6	adv	_	_
+6	bitte	bitten	V	VVFIN	_|Sg|Pres|_	0	root	_	_
+7	?	?	$.	$.	_	0	root	_	_
+
+
+
+Stanford
+
+1	Um	um	ADP	KOUI	_	2	mark	_	_
+2	geboren	gebären	VERB	VVPP	VerbForm=Part	6	advcl	_	_
+3	bist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
+5	wann	wann	ADV	ADV	_	6	advmod	_	_
+6	bitte	bitte	VERB	VVFIN	_	0	root	_	_
+7	?	?	PUNCT	$.	_	6	punct	_	_
+
+
+
+NLPCube
+
+1	Um	um	ADP	APPR	_	2	mark	_
+2	geboren	gebären	VERB	VVPP	VerbForm=Part	0	root	_
+3	bist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	cop	_
+4	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_
+5	wann	wann	ADV	ADV	Definite=Ind|PronType=Ind	6	advmod	_
+6	bitte	bitte	PROPN	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	advmod	SpaceAfter=No
+7	?	?	PUNCT	$.	_	2	punct	SpaceAfter=No
+
+
+SpaCy
+
+1	Um	_	SCONJ	KOUI	_	2	mo	_	_
+2	geboren	_	VERB	VVPP	_	3	oc	_	_
+3	bist	_	AUX	VAFIN	_	3	ROOT	_	_
+4	du	_	PRON	PPER	_	3	sb	_	_
+5	wann	_	ADV	PWAV	_	3	mo	_	_
+6	bitte	_	PART	PTKANT	_	3	mo	_	_
+7	?	_	PUNCT	$.	_	3	punct	_	_
+
+
+------------------------------------------------
+
+Kunde: 3.12.1972 
+
+
+CorZu
+
+1	3.12.1972	3.12.1972	CARD	CARD	_	0	root	_	-
+
+
+
+ParZu
+
+1	3.12.1972	3.12.1972	CARD	CARD	_	0	root	_	_
+
+
+
+Stanford
+
+1	3.12.1972	3.12.1972	NUM	CARD	NumType=Card	0	root	_	_
+
+
+
+NLPCube
+
+1	3.12.1972	3.12.1972	NUM	CARD	NumType=Card	0	root	_
+
+
+SpaCy
+
+1	3.12.1972	_	PROPN	NE	_	1	ROOT	_	_
+
+
+------------------------------------------------
+
+KKC Mitarbeiter: Welcher Straße wohnhaft?
+
+
+CorZu
+
+1	Welcher	welche	ART	PWAT	_|_|_	2	det	_	-
+2	Straße	Straß	N	NN	_|_|_	0	root	_	-
+3	wohnhaft	wohnhaft	ADV	ADJD	Pos|	0	root	_	-
+4	?	?	$.	$.	_	0	root	_	-
+
+
+
+ParZu
+
+1	Welcher	welche	ART	PWAT	_|_|_	2	det	_	_
+2	Straße	Straß	N	NN	_|_|_	0	root	_	_
+3	wohnhaft	wohnhaft	ADV	ADJD	Pos|	0	root	_	_
+4	?	?	$.	$.	_	0	root	_	_
+
+
+
+Stanford
+
+1	Welcher	welch	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Straße	Straße	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	wohnhaft	wohnhaft	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	?	?	PUNCT	$.	_	3	punct	_	_
+
+
+
+NLPCube
+
+1	Welcher	welcher	PRON	PWAT	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_
+2	Straße	straße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_
+3	wohnhaft	wohnhaft	ADV	VVFIN	_	2	advmod	SpaceAfter=No
+4	?	?	PUNCT	$.	_	3	punct	SpaceAfter=No
+
+
+SpaCy
+
+1	Welcher	_	DET	PWAT	_	2	nk	_	_
+2	Straße	_	NOUN	NN	_	2	ROOT	_	_
+3	wohnhaft	_	ADJ	ADJD	_	2	pd	_	_
+4	?	_	PUNCT	$.	_	2	punct	_	_
+
+
+------------------------------------------------
+
+Kunde: Sankt Veiterring 51a 
+
+
+CorZu
+
+1	Sankt	sankt	ADV	ADJD	Pos|	2	adv	_	-
+2	Veiterring	Veiterring	N	NN	Masc|_|Sg	0	root	_	-
+3	51a	51a	N	NE	Masc|_|Sg	2	app	_	-
+
+
+
+ParZu
+
+1	Sankt	sankt	ADV	ADJD	Pos|	2	adv	_	_
+2	Veiterring	Veiterring	N	NN	Masc|_|Sg	0	root	_	_
+3	51a	51a	N	NE	Masc|_|Sg	2	app	_	_
+
+
+
+Stanford
+
+1	Sankt	Sankt	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Veiterring	Veiterring	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
+3	51a	51a	PUNCT	$.	_	1	punct	_	_
+
+
+
+NLPCube
+
+1	Sankt	Sankt	PROPN	APPR	Case=Nom|Gender=Masc|Number=Sing	0	root	_
+2	Veiterring	Veiterring	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	flat	_
+3	51a	51a	PROPN	CARD	NumType=Card	1	appos	_
+
+
+SpaCy
+
+1	Sankt	_	PROPN	NE	_	2	pnc	_	_
+2	Veiterring	_	PROPN	NE	_	2	ROOT	_	_
+3	51a	_	X	XY	_	2	nk	_	_
+
+
+------------------------------------------------
+
+KKC Mitarbeiter: Und Postleitzahl und Ort brauche ich bitte noch?
+
+
+CorZu
+
+1	Und	und	KON	KON	_	0	root	_	-
+2	Postleitzahl	Postleitzahl	N	NN	Fem|Acc|Sg	5	obja	_	-
+3	und	und	KON	KON	_	2	kon	_	-
+4	Ort	Ort	N	NN	_|Acc|Sg	3	cj	_	-
+5	brauche	brauchen	V	VVFIN	1|Sg|Pres|_	1	cj	_	-
+6	ich	ich	PRO	PPER	1|Sg|_|Nom	5	subj	_	-
+7	bitte	bitte	ITJ	ITJ	_	0	root	_	-
+8	noch	noch	ADV	ADV	_	5	adv	_	-
+9	?	?	$.	$.	_	0	root	_	-
+
+
+
+ParZu
+
+1	Und	und	KON	KON	_	0	root	_	_
+2	Postleitzahl	Postleitzahl	N	NN	Fem|Acc|Sg	5	obja	_	_
+3	und	und	KON	KON	_	2	kon	_	_
+4	Ort	Ort	N	NN	_|Acc|Sg	3	cj	_	_
+5	brauche	brauchen	V	VVFIN	1|Sg|Pres|_	1	cj	_	_
+6	ich	ich	PRO	PPER	1|Sg|_|Nom	5	subj	_	_
+7	bitte	bitte	ITJ	ITJ	_	0	root	_	_
+8	noch	noch	ADV	ADV	_	5	adv	_	_
+9	?	?	$.	$.	_	0	root	_	_
+
+
+
+Stanford
+
+1	Und	und	CCONJ	KON	_	5	cc	_	_
+2	Postleitzahl	Postleitzahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	und	und	CCONJ	KON	_	4	cc	_	_
+4	Ort	Ort	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+5	brauche	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+7	bitte	bitte	ADV	ADV	_	8	advmod	_	_
+8	noch	noch	ADV	ADV	_	5	advmod	_	_
+9	?	?	PUNCT	$.	_	5	punct	_	_
+
+
+
+NLPCube
+
+1	Und	und	CCONJ	KON	_	5	cc	_
+2	Postleitzahl	postleitzahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	obj	_
+3	und	und	CCONJ	KON	_	4	cc	_
+4	Ort	ort	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	conj	_
+5	brauche	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_
+7	bitte	bitten	ADV	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	xcomp	_
+8	noch	noch	ADV	ADV	_	5	advmod	SpaceAfter=No
+9	?	?	PUNCT	$.	_	5	punct	SpaceAfter=No
+
+
+SpaCy
+
+1	Und	_	CCONJ	KON	_	5	ju	_	_
+2	Postleitzahl	_	NOUN	NN	_	5	oa	_	_
+3	und	_	CCONJ	KON	_	2	cd	_	_
+4	Ort	_	NOUN	NN	_	3	cj	_	_
+5	brauche	_	VERB	VVFIN	_	5	ROOT	_	_
+6	ich	_	PRON	PPER	_	5	sb	_	_
+7	bitte	_	ADV	ADV	_	5	mo	_	_
+8	noch	_	ADV	ADV	_	5	mo	_	_
+9	?	_	PUNCT	$.	_	5	punct	_	_
+
+
+------------------------------------------------
+
+Kunde: 9020  Klagenfurt
+
+
+CorZu
+
+1	9020	9020	CARD	CARD	_	0	root	_	-
+2	Klagenfurt	Klagenfurt	N	NN	Fem|_|Sg	0	root	_	-
+
+
+
+ParZu
+
+1	9020	9020	CARD	CARD	_	0	root	_	_
+2	Klagenfurt	Klagenfurt	N	NN	Fem|_|Sg	0	root	_	_
+
+
+
+Stanford
+
+1	9020	9020	NUM	CARD	NumType=Card	0	root	_	_
+2	Klagenfurt	Klagenfurt	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	1	flat	_	_
+
+
+
+NLPCube
+
+1	9020	9020	NUM	CARD	NumType=Card	2	dep	_
+2	Klagenfurt	Klagenfurt	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	SpaceAfter=No
+
+
+SpaCy
+
+1	9020	_	NUM	CARD	_	1	ROOT	_	_
+2	 	_	SPACE	_SP	_	1		_	_
+1	Klagenfurt	_	PROPN	NE	_	1	ROOT	_	_
+
+
+------------------------------------------------
+
+KKC Mitarbeiter: Danke, du bist auch der Karteninhaber ist das korrekt?
+
+
+CorZu
+
+1	Danke	danke	ITJ	ITJ	_	0	root	_	-
+2	,	,	$,	$,	_	0	root	_	-
+3	du	du	PRO	PPER	2|Sg|_|Nom	4	subj	_	-
+4	bist	sein	V	VAFIN	2|Sg|Pres|Ind	8	s	_	-
+5	auch	auch	ADV	ADV	_	4	adv	_	-
+6	der	die	ART	ART	Def|Masc|Nom|Sg	7	det	_	-
+7	Karteninhaber	Karteninhaber	N	NN	Masc|Nom|Sg	4	pred	_	-
+8	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	-
+9	das	die	PRO	PDS	Neut|Nom|Sg	8	subj	_	-
+10	korrekt	korrekt	ADV	ADJD	Pos|	8	pred	_	-
+11	?	?	$.	$.	_	0	root	_	-
+
+
+
+ParZu
+
+1	Danke	danke	ITJ	ITJ	_	0	root	_	_
+2	,	,	$,	$,	_	0	root	_	_
+3	du	du	PRO	PPER	2|Sg|_|Nom	4	subj	_	_
+4	bist	sein	V	VAFIN	2|Sg|Pres|Ind	8	s	_	_
+5	auch	auch	ADV	ADV	_	4	adv	_	_
+6	der	die	ART	ART	Def|Masc|Nom|Sg	7	det	_	_
+7	Karteninhaber	Karteninhaber	N	NN	Masc|Nom|Sg	4	pred	_	_
+8	ist	sein	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+9	das	die	PRO	PDS	Neut|Nom|Sg	8	subj	_	_
+10	korrekt	korrekt	ADV	ADJD	Pos|	8	pred	_	_
+11	?	?	$.	$.	_	0	root	_	_
+
+
+
+Stanford
+
+1	Danke	Dank	VERB	VVIMP	Mood=Ind|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
+2	,	,	PUNCT	$,	_	1	punct	_	_
+3	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	_
+4	bist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	auch	auch	ADV	ADV	_	7	advmod	_	_
+6	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Karteninhaber	Karteninhaber	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	ccomp	_	_
+8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	nsubj	_	_
+10	korrekt	korrekt	ADJ	ADJD	_	7	conj	_	_
+11	?	?	PUNCT	$.	_	10	punct	_	_
+
+
+
+NLPCube
+
+1	Danke	dank	ADJ	ITJ	_	10	appos	SpaceAfter=No
+2	,	,	PUNCT	$,	_	10	punct	_
+3	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	_
+4	bist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	cop	_
+5	auch	auch	ADV	ADV	_	7	advmod	_
+6	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_
+7	Karteninhaber	karteninhaber	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_
+8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_
+9	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	det	_
+10	korrekt	korrekt	ADJ	ADJD	_	0	root	SpaceAfter=No
+11	?	?	PUNCT	$.	_	10	punct	SpaceAfter=No
+
+
+SpaCy
+
+1	Danke	_	PART	PTKANT	_	8	pd	_	_
+2	,	_	PUNCT	$,	_	1	punct	_	_
+3	du	_	PRON	PPER	_	4	sb	_	_
+4	bist	_	AUX	VAFIN	_	1	oc	_	_
+5	auch	_	ADV	ADV	_	7	mo	_	_
+6	der	_	DET	ART	_	7	nk	_	_
+7	Karteninhaber	_	NOUN	NN	_	4	pd	_	_
+8	ist	_	AUX	VAFIN	_	8	ROOT	_	_
+9	das	_	PRON	PDS	_	8	sb	_	_
+10	korrekt	_	ADJ	ADJD	_	8	pd	_	_
+11	?	_	PUNCT	$.	_	8	punct	_	_
+
+
+------------------------------------------------
+
+Kunde: Ja.
+
+
+CorZu
+
+1	Ja	ja	PTKANT	PTKANT	_	0	root	_	-
+2	.	.	$.	$.	_	0	root	_	-
+
+
+
+ParZu
+
+1	Ja	ja	PTKANT	PTKANT	_	0	root	_	_
+2	.	.	$.	$.	_	0	root	_	_
+
+
+
+Stanford
+
+1	Ja.	Ja.	PUNCT	$(	_	0	root	_	_
+
+
+
+NLPCube
+
+1	Ja	ja	ADJ	ADV	_	0	root	SpaceAfter=No
+2	.	.	PUNCT	$.	_	1	punct	SpaceAfter=No
+
+
+SpaCy
+
+1	Ja	_	PART	PTKANT	_	1	ROOT	_	_
+2	.	_	PUNCT	$.	_	1	punct	_	_
+
+
+------------------------------------------------
+
+KKC Mitarbeiter: Sehr schön. Dann wird die Kartensperre weitergeleitet. Du bist mit diesem Anruf schadlos gehalten. Dürfen wir gleich eine neue Karte nachbestellen?
+
+
+CorZu
+
+1	Sehr	sehr	ADV	ADV	_	2	adv	_	-
+2	schön	schön	ADV	ADJD	Pos|	0	root	_	-
+3	.	.	$.	$.	_	0	root	_	-
+
+
+1	Dann	dann	ADV	ADV	_	2	adv	_	-
+2	wird	werden	V	VAFIN	3|Sg|Pres|Ind	0	root	_	-
+3	die	die	ART	ART	Def|Fem|Nom|Sg	4	det	_	-
+4	Kartensperre	Kartensperre	N	NN	Fem|Nom|Sg	2	subj	_	-
+5	weitergeleitet	weiterleiten	V	VVPP	_	2	aux	_	-
+6	.	.	$.	$.	_	0	root	_	-
+
+
+1	Du	du	PRO	PPER	2|Sg|_|Nom	2	subj	_	-
+2	bist	sein	V	VAFIN	2|Sg|Pres|Ind	0	root	_	-
+3	mit	mit	PREP	APPR	Dat	7	pp	_	-
+4	diesem	diese	ART	PDAT	Masc|Dat|Sg	5	det	_	-
+5	Anruf	Anruf	N	NN	Masc|Dat|Sg	3	pn	_	-
+6	schadlos	schadlos	ADV	ADJD	Pos|	7	adv	_	-
+7	gehalten	halten	V	VVPP	_	2	aux	_	-
+8	.	.	$.	$.	_	0	root	_	-
+
+
+1	Dürfen	dürfen	V	VMFIN	1|Pl|Pres|_	0	root	_	-
+2	wir	wir	PRO	PPER	1|Pl|_|Nom	1	subj	_	-
+3	gleich	gleich	ADV	ADV	_	7	adv	_	-
+4	eine	eine	ART	ART	Indef|Fem|Acc|Sg	6	det	_	-
+5	neue	neu	ADJA	ADJA	Pos|Fem|Acc|Sg|_|	6	attr	_	-
+6	Karte	Karte	N	NN	Fem|Acc|Sg	7	obja	_	-
+7	nachbestellen	nachbestellen	V	VVINF	_	1	aux	_	-
+8	?	?	$.	$.	_	0	root	_	-
+
+
+
+ParZu
+
+1	Sehr	sehr	ADV	ADV	_	2	adv	_	_
+2	schön	schön	ADV	ADJD	Pos|	0	root	_	_
+3	.	.	$.	$.	_	0	root	_	_
+
+
+1	Dann	dann	ADV	ADV	_	2	adv	_	_
+2	wird	werden	V	VAFIN	3|Sg|Pres|Ind	0	root	_	_
+3	die	die	ART	ART	Def|Fem|Nom|Sg	4	det	_	_
+4	Kartensperre	Kartensperre	N	NN	Fem|Nom|Sg	2	subj	_	_
+5	weitergeleitet	weiterleiten	V	VVPP	_	2	aux	_	_
+6	.	.	$.	$.	_	0	root	_	_
+
+
+1	Du	du	PRO	PPER	2|Sg|_|Nom	2	subj	_	_
+2	bist	sein	V	VAFIN	2|Sg|Pres|Ind	0	root	_	_
+3	mit	mit	PREP	APPR	Dat	7	pp	_	_
+4	diesem	diese	ART	PDAT	Masc|Dat|Sg	5	det	_	_
+5	Anruf	Anruf	N	NN	Masc|Dat|Sg	3	pn	_	_
+6	schadlos	schadlos	ADV	ADJD	Pos|	7	adv	_	_
+7	gehalten	halten	V	VVPP	_	2	aux	_	_
+8	.	.	$.	$.	_	0	root	_	_
+
+
+1	Dürfen	dürfen	V	VMFIN	1|Pl|Pres|_	0	root	_	_
+2	wir	wir	PRO	PPER	1|Pl|_|Nom	1	subj	_	_
+3	gleich	gleich	ADV	ADV	_	7	adv	_	_
+4	eine	eine	ART	ART	Indef|Fem|Acc|Sg	6	det	_	_
+5	neue	neu	ADJA	ADJA	Pos|Fem|Acc|Sg|_|	6	attr	_	_
+6	Karte	Karte	N	NN	Fem|Acc|Sg	7	obja	_	_
+7	nachbestellen	nachbestellen	V	VVINF	_	1	aux	_	_
+8	?	?	$.	$.	_	0	root	_	_
+
+
+
+Stanford
+
+1	Sehr	sehr	ADV	ADV	_	2	advmod	_	_
+2	schön	schön	ADJ	ADJD	_	0	root	_	_
+3	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Dann	dann	ADV	ADV	_	5	advmod	_	_
+2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	aux:pass	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Kartensperre	Kartensperre	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+5	weitergeleitet	weiterleiten	VERB	VVPP	VerbForm=Part	0	root	_	_
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	_
+2	bist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	mit	mit	ADP	APPR	_	5	case	_	_
+4	diesem	dies	PRON	PDAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	Anruf	Anruf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	_
+6	schadlos	schadlos	ADV	ADJD	_	7	advmod	_	_
+7	gehalten	halten	VERB	VVPP	VerbForm=Part	0	root	_	_
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+1	Dürfen	Dürfen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+3	gleich	gleich	ADV	ADV	_	7	advmod	_	_
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	neue	neu	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	6	amod	_	_
+6	Karte	Karte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+7	nachbestellen	nachbestellen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+8	?	?	PUNCT	$.	_	7	punct	_	_
+
+
+
+NLPCube
+
+1	Sehr	sehr	ADV	ADV	_	2	advmod	_
+2	schön	schön	ADJ	ADJD	_	0	root	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_
+1	Dann	dann	ADV	ADV	_	5	advmod	_
+2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	aux:pass	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_
+4	Kartensperre	kartensperre	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_
+5	weitergeleitet	weiterleiten	VERB	VVPP	VerbForm=Part	0	root	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	_
+2	bist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	cop	_
+3	mit	mit	ADP	APPR	_	5	case	_
+4	diesem	dies	PRON	PDAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	5	det	_
+5	Anruf	anruf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	nmod	_
+6	schadlos	schadlos	ADV	ADJD	_	7	advmod	_
+7	gehalten	halten	VERB	VVPP	VerbForm=Part	0	root	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_
+1	Dürfen	dürfen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_
+3	gleich	gleich	ADV	ADV	_	7	advmod	_
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_
+5	neue	neu	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	6	amod	_
+6	Karte	karte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_
+7	nachbestellen	nachbestellen	VERB	VVINF	VerbForm=Inf	0	root	SpaceAfter=No
+8	?	?	PUNCT	$.	_	7	punct	SpaceAfter=No
+
+
+SpaCy
+
+1	Sehr	_	ADV	ADV	_	2	mo	_	_
+2	schön	_	ADJ	ADJD	_	2	ROOT	_	_
+3	.	_	PUNCT	$.	_	2	punct	_	_
+1	Dann	_	ADV	ADV	_	5	mo	_	_
+2	wird	_	AUX	VAFIN	_	2	ROOT	_	_
+3	die	_	DET	ART	_	4	nk	_	_
+4	Kartensperre	_	NOUN	NN	_	2	sb	_	_
+5	weitergeleitet	_	VERB	VVPP	_	2	oc	_	_
+6	.	_	PUNCT	$.	_	2	punct	_	_
+1	Du	_	PRON	PPER	_	2	sb	_	_
+2	bist	_	AUX	VAFIN	_	2	ROOT	_	_
+3	mit	_	ADP	APPR	_	7	mo	_	_
+4	diesem	_	DET	PDAT	_	5	nk	_	_
+5	Anruf	_	NOUN	NN	_	3	nk	_	_
+6	schadlos	_	ADJ	ADJD	_	7	mo	_	_
+7	gehalten	_	VERB	VVPP	_	2	oc	_	_
+8	.	_	PUNCT	$.	_	2	punct	_	_
+1	Dürfen	_	VERB	VMFIN	_	1	ROOT	_	_
+2	wir	_	PRON	PPER	_	1	sb	_	_
+3	gleich	_	ADV	ADV	_	1	mo	_	_
+4	eine	_	DET	ART	_	6	nk	_	_
+5	neue	_	ADJ	ADJA	_	6	nk	_	_
+6	Karte	_	NOUN	NN	_	7	oa	_	_
+7	nachbestellen	_	VERB	VVINF	_	1	oc	_	_
+8	?	_	PUNCT	$.	_	1	punct	_	_
+
+
+------------------------------------------------
+
+Kunde: Ja bitte unbedingt.
+
+
+CorZu
+
+1	Ja	ja	PTKANT	PTKANT	_	0	root	_	-
+2	bitte	bitte	ITJ	ITJ	_	0	root	_	-
+3	unbedingt	unbedingt	ADV	ADV	_	0	root	_	-
+4	.	.	$.	$.	_	0	root	_	-
+
+
+
+ParZu
+
+1	Ja	ja	PTKANT	PTKANT	_	0	root	_	_
+2	bitte	bitte	ITJ	ITJ	_	0	root	_	_
+3	unbedingt	unbedingt	ADV	ADV	_	0	root	_	_
+4	.	.	$.	$.	_	0	root	_	_
+
+
+
+Stanford
+
+1	Ja	Ja	ADV	ADV	_	2	advmod	_	_
+2	bitte	bitte	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	unbedingt	unbedingt	ADV	ADV	_	2	advmod	_	_
+4	.	.	PUNCT	$.	_	2	punct	_	_
+
+
+
+NLPCube
+
+1	Ja	ja	ADV	ADV	_	2	advmod	_
+2	bitte	bitten	VERB	VVFIN	_	0	root	_
+3	unbedingt	unbedingt	ADV	ADV	_	2	advmod	SpaceAfter=No
+4	.	.	PUNCT	$.	_	2	punct	SpaceAfter=No
+
+
+SpaCy
+
+1	Ja	_	PART	PTKANT	_	3	mo	_	_
+2	bitte	_	ADV	ADV	_	3	mo	_	_
+3	unbedingt	_	ADV	ADV	_	3	ROOT	_	_
+4	.	_	PUNCT	$.	_	3	punct	_	_
+
+
+------------------------------------------------
+
+KKC Mitarbeiter: Dann bestellen wir sofort eine nach. Ich sehe grad es wird per Post zugestellt auf deine Wohnadresse, die haben wir auch schon kontrolliert. Sollte die nächsten sieben Tage kommen.
+
+
+CorZu
+
+1	Dann	dann	ADV	ADV	_	2	adv	_	-
+2	bestellen	bestellen	V	VVFIN	1|Pl|Pres|_	0	root	_	-
+3	wir	wir	PRO	PPER	1|Pl|_|Nom	2	subj	_	(1)
+4	sofort	sofort	ADV	ADV	_	2	adv	_	-
+5	eine	eine	PRO	PIS	_|Acc|Sg	2	obja	_	-
+6	nach	nach	PTKVZ	PTKVZ	_	2	avz	_	-
+7	.	.	$.	$.	_	0	root	_	-
+
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	-
+2	sehe	sehen	V	VVFIN	1|Sg|Pres|_	0	root	_	-
+3	grad	grad	ADV	ADJD	_	2	adv	_	-
+4	es	es	PRO	PPER	3|Sg|Neut|Nom	5	subj	_	-
+5	wird	werden	V	VAFIN	3|Sg|Pres|Ind	2	s	_	-
+6	per	per	PREP	APPR	Dat	8	pp	_	-
+7	Post	Post	N	NN	_|Dat|Sg	6	pn	_	-
+8	zugestellt	zugestellt	ADV	ADJD	Pos|	5	adv	_	-
+9	auf	auf	PREP	APPR	Acc	5	pp	_	-
+10	deine	deine	ART	PPOSAT	Fem|Acc|Sg	11	det	_	(0
+11	Wohnadresse	Wohnadresse	N	NN	Fem|Acc|Sg	9	pn	_	0)
+12	,	,	$,	$,	_	0	root	_	-
+13	die	die	PRO	PDS	_|_|_	0	root	_	(0)
+14	haben	haben	V	VAINF	_	0	root	_	-
+15	wir	wir	PRO	PPER	1|Pl|_|Nom	18	subj	_	(1)
+16	auch	auch	ADV	ADV	_	18	adv	_	-
+17	schon	schon	ADV	ADV	_	18	adv	_	-
+18	kontrolliert	kontrollieren	V	VVPP	_	0	root	_	-
+19	.	.	$.	$.	_	0	root	_	-
+
+
+1	Sollte	sollen	V	VMFIN	_|Sg|Past|_	0	root	_	-
+2	die	die	ART	ART	Def|Masc|Acc|Pl	5	det	_	-
+3	nächsten	nah	ADJA	ADJA	_|Masc|Acc|Pl|Wk|	5	attr	_	-
+4	sieben	sieben	CARD	CARD	_	5	attr	_	-
+5	Tage	Tag	N	NN	Masc|Acc|Pl	6	zeit	_	-
+6	kommen	kommen	V	VVINF	_	1	aux	_	-
+7	.	.	$.	$.	_	0	root	_	-
+
+
+
+ParZu
+
+1	Dann	dann	ADV	ADV	_	2	adv	_	_
+2	bestellen	bestellen	V	VVFIN	1|Pl|Pres|_	0	root	_	_
+3	wir	wir	PRO	PPER	1|Pl|_|Nom	2	subj	_	_
+4	sofort	sofort	ADV	ADV	_	2	adv	_	_
+5	eine	eine	PRO	PIS	_|Acc|Sg	2	obja	_	_
+6	nach	nach	PTKVZ	PTKVZ	_	2	avz	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+
+1	Ich	ich	PRO	PPER	1|Sg|_|Nom	2	subj	_	_
+2	sehe	sehen	V	VVFIN	1|Sg|Pres|_	0	root	_	_
+3	grad	grad	ADV	ADJD	_	2	adv	_	_
+4	es	es	PRO	PPER	3|Sg|Neut|Nom	5	subj	_	_
+5	wird	werden	V	VAFIN	3|Sg|Pres|Ind	2	s	_	_
+6	per	per	PREP	APPR	Dat	8	pp	_	_
+7	Post	Post	N	NN	_|Dat|Sg	6	pn	_	_
+8	zugestellt	zugestellt	ADV	ADJD	Pos|	5	adv	_	_
+9	auf	auf	PREP	APPR	Acc	5	pp	_	_
+10	deine	deine	ART	PPOSAT	Fem|Acc|Sg	11	det	_	_
+11	Wohnadresse	Wohnadresse	N	NN	Fem|Acc|Sg	9	pn	_	_
+12	,	,	$,	$,	_	0	root	_	_
+13	die	die	PRO	PDS	_|_|_	0	root	_	_
+14	haben	haben	V	VAINF	_	0	root	_	_
+15	wir	wir	PRO	PPER	1|Pl|_|Nom	18	subj	_	_
+16	auch	auch	ADV	ADV	_	18	adv	_	_
+17	schon	schon	ADV	ADV	_	18	adv	_	_
+18	kontrolliert	kontrollieren	V	VVPP	_	0	root	_	_
+19	.	.	$.	$.	_	0	root	_	_
+
+
+1	Sollte	sollen	V	VMFIN	_|Sg|Past|_	0	root	_	_
+2	die	die	ART	ART	Def|Masc|Acc|Pl	5	det	_	_
+3	nächsten	nah	ADJA	ADJA	_|Masc|Acc|Pl|Wk|	5	attr	_	_
+4	sieben	sieben	CARD	CARD	_	5	attr	_	_
+5	Tage	Tag	N	NN	Masc|Acc|Pl	6	zeit	_	_
+6	kommen	kommen	V	VVINF	_	1	aux	_	_
+7	.	.	$.	$.	_	0	root	_	_
+
+
+
+Stanford
+
+1	Dann	dann	ADV	ADV	_	2	advmod	_	_
+2	bestellen	bestellen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+4	sofort	sofort	ADV	ADV	_	2	advmod	_	_
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	obj	_	_
+6	nach	nach	ADP	PTKVZ	_	2	compound:prt	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	sehe	sehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	grad	grad	ADV	ADV	_	2	advmod	_	_
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+5	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	aux:pass	_	_
+6	per	per	ADP	APPR	_	7	case	_	_
+7	Post	Post	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+8	zugestellt	zustellen	VERB	VVPP	VerbForm=Part	2	conj	_	_
+9	auf	auf	ADP	APPR	_	11	case	_	_
+10	deine	dein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	11	det:poss	_	_
+11	Wohnadresse	Wohnadresse	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+12	,	,	PUNCT	$,	_	11	punct	_	_
+13	die	der	PRON	PRELS	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	18	obj	_	_
+14	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+15	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	_
+16	auch	auch	ADV	ADV	_	18	advmod	_	_
+17	schon	schon	ADV	ADV	_	18	advmod	_	_
+18	kontrolliert	kontrollieren	VERB	VVPP	VerbForm=Part	11	acl	_	_
+19	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+3	nächsten	nah	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	5	amod	_	_
+4	sieben	sieben	NUM	CARD	NumType=Card	5	nummod	_	_
+5	Tage	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+6	kommen	kommen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+
+
+NLPCube
+
+1	Dann	dann	ADV	ADV	_	2	advmod	_
+2	bestellen	bestellen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_
+4	sofort	sofort	ADV	ADV	_	2	advmod	_
+5	eine	ein	DET	PIS	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	obj	_
+6	nach	nach	ADP	PTKVZ	_	2	compound:prt	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_
+2	sehe	sehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_
+3	grad	grad	ADV	ADJD	_	2	advmod	_
+4	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_
+5	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	aux:pass	_
+6	per	per	ADP	APPR	_	7	case	_
+7	Post	post	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_
+8	zugestellt	zustellen	VERB	VVPP	VerbForm=Part	2	ccomp	_
+9	auf	auf	ADP	APPR	_	11	case	_
+10	deine	dein	PRON	PPOSAT	Case=Acc|Gender=Neut|Number=Plur|Poss=Yes	11	det	_
+11	Wohnadresse	wohnadresse	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	SpaceAfter=No
+12	,	,	PUNCT	$,	_	2	punct	_
+13	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Rel	18	obj	_
+14	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_
+15	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_
+16	auch	auch	ADV	ADV	_	17	advmod	_
+17	schon	schon	ADV	ADV	_	18	advmod	_
+18	kontrolliert	kontrollieren	VERB	VVPP	VerbForm=Part	2	ccomp	SpaceAfter=No
+19	.	.	PUNCT	$.	_	2	punct	_
+1	Sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_
+2	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_
+3	nächsten	nah	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	5	amod	_
+4	sieben	sieben	NUM	CARD	NumType=Card	5	nummod	_
+5	Tage	tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	obl	_
+6	kommen	kommen	VERB	VVINF	VerbForm=Inf	0	root	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	SpaceAfter=No
+
+
+SpaCy
+
+1	Dann	_	ADV	ADV	_	2	mo	_	_
+2	bestellen	_	VERB	VVFIN	_	2	ROOT	_	_
+3	wir	_	PRON	PPER	_	2	sb	_	_
+4	sofort	_	ADV	ADV	_	2	mo	_	_
+5	eine	_	DET	ART	_	2	oa	_	_
+6	nach	_	ADP	PTKVZ	_	2	svp	_	_
+7	.	_	PUNCT	$.	_	2	punct	_	_
+1	Ich	_	PRON	PPER	_	2	sb	_	_
+2	sehe	_	VERB	VVFIN	_	2	ROOT	_	_
+3	grad	_	ADV	ADV	_	2	mo	_	_
+1	es	_	PRON	PPER	_	2	sb	_	_
+2	wird	_	AUX	VAFIN	_	2	ROOT	_	_
+3	per	_	ADP	APPR	_	5	mo	_	_
+4	Post	_	NOUN	NN	_	3	nk	_	_
+5	zugestellt	_	VERB	VVPP	_	2	oc	_	_
+6	auf	_	ADP	APPR	_	5	mo	_	_
+7	deine	_	DET	PPOSAT	_	8	nk	_	_
+8	Wohnadresse	_	NOUN	NN	_	6	nk	_	_
+9	,	_	PUNCT	$,	_	2	punct	_	_
+10	die	_	PRON	PDS	_	15	oa	_	_
+11	haben	_	AUX	VAFIN	_	2	cj	_	_
+12	wir	_	PRON	PPER	_	11	sb	_	_
+13	auch	_	ADV	ADV	_	15	mo	_	_
+14	schon	_	ADV	ADV	_	15	mo	_	_
+15	kontrolliert	_	VERB	VVPP	_	11	oc	_	_
+16	.	_	PUNCT	$.	_	2	punct	_	_
+1	Sollte	_	VERB	VMFIN	_	1	ROOT	_	_
+2	die	_	DET	ART	_	5	nk	_	_
+3	nächsten	_	ADJ	ADJA	_	5	nk	_	_
+4	sieben	_	NUM	CARD	_	5	nk	_	_
+5	Tage	_	NOUN	NN	_	1	sb	_	_
+6	kommen	_	VERB	VVINF	_	1	oc	_	_
+7	.	_	PUNCT	$.	_	1	punct	_	_
+
+
+------------------------------------------------
+
+Kunde: Alles klar. Sehr gut.
+
+
+CorZu
+
+1	Alles	alle	PRO	PIS	_|_|Sg	0	root	_	-
+2	klar	klar	ADV	ADJD	Pos|	0	root	_	-
+3	.	.	$.	$.	_	0	root	_	-
+
+
+1	Sehr	sehr	ADV	ADV	_	2	adv	_	-
+2	gut	gut	ADV	ADJD	Pos|	0	root	_	-
+3	.	.	$.	$.	_	0	root	_	-
+
+
+
+ParZu
+
+1	Alles	alle	PRO	PIS	_|_|Sg	0	root	_	_
+2	klar	klar	ADV	ADJD	Pos|	0	root	_	_
+3	.	.	$.	$.	_	0	root	_	_
+
+
+1	Sehr	sehr	ADV	ADV	_	2	adv	_	_
+2	gut	gut	ADV	ADJD	Pos|	0	root	_	_
+3	.	.	$.	$.	_	0	root	_	_
+
+
+
+Stanford
+
+1	Alles	alle	PRON	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	2	cop	_	_
+2	klar	klar	ADJ	ADJD	_	0	root	_	_
+3	.	.	PUNCT	$.	_	2	punct	_	_
+
+1	Sehr	sehr	ADV	ADV	_	2	advmod	_	_
+2	gut	gut	ADJ	ADJD	_	0	root	_	_
+3	.	.	PUNCT	$.	_	2	punct	_	_
+
+
+
+NLPCube
+
+1	Alles	alle	PRON	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	2	cop	_
+2	klar	klar	ADJ	ADJD	_	0	root	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_
+1	Sehr	sehr	ADV	ADV	_	2	advmod	_
+2	gut	gut	ADJ	ADJD	_	0	root	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	SpaceAfter=No
+
+
+SpaCy
+
+1	Alles	_	PRON	PIS	_	2	sb	_	_
+2	klar	_	ADJ	ADJD	_	2	ROOT	_	_
+3	.	_	PUNCT	$.	_	2	punct	_	_
+1	Sehr	_	ADV	ADV	_	2	mo	_	_
+2	gut	_	ADJ	ADJD	_	2	ROOT	_	_
+3	.	_	PUNCT	$.	_	2	punct	_	_
+
+
+------------------------------------------------
+
+KKC Mitarbeiter: Dankeschön. Danke auch
+
+
+CorZu
+
+1	Dankeschön	Dankeschön	N	NN	Neut|_|Sg	0	root	_	-
+2	.	.	$.	$.	_	0	root	_	-
+
+
+1	Danke	Dank	N	NN	Masc|Dat|Sg	0	root	_	-
+2	auch	auch	ADV	ADV	_	1	adv	_	-
+
+
+
+ParZu
+
+1	Dankeschön	Dankeschön	N	NN	Neut|_|Sg	0	root	_	_
+2	.	.	$.	$.	_	0	root	_	_
+
+
+1	Danke	Dank	N	NN	Masc|Dat|Sg	0	root	_	_
+2	auch	auch	ADV	ADV	_	1	adv	_	_
+
+
+
+Stanford
+
+1	Dankeschön	Dankeschön	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+2	.	.	PUNCT	$.	_	1	punct	_	_
+
+1	Danke	Dank	NOUN	PTKANT	Number=Sing	0	root	_	_
+2	auch	auch	ADV	ADV	_	1	advmod	_	_
+
+
+
+NLPCube
+
+1	Dankeschön	dankeschön	X	ADJD	_	0	root	SpaceAfter=No
+2	.	.	PUNCT	$.	_	1	punct	_
+1	Danke	dank	NOUN	PTKANT	_	0	root	_
+2	auch	auch	ADV	ADV	_	1	advmod	SpaceAfter=No
+
+
+SpaCy
+
+1	Dankeschön	_	NOUN	NN	_	1	ROOT	_	_
+1	.	_	PUNCT	$.	_	1	ROOT	_	_
+1	Danke	_	ADV	ADV	_	1	ROOT	_	_
+2	auch	_	ADV	ADV	_	1	mo	_	_
+
+
+------------------------------------------------
+
+Kunde: Bitte gerne. Danke.
+
+
+CorZu
+
+1	Bitte	Bitte	ITJ	ITJ	_	0	root	_	-
+2	gerne	gerne	ADV	ADV	_	0	root	_	-
+3	.	.	$.	$.	_	0	root	_	-
+
+
+1	Danke	Dank	N	NN	Masc|Dat|Sg	0	root	_	-
+2	.	.	$.	$.	_	0	root	_	-
+
+
+
+ParZu
+
+1	Bitte	Bitte	ITJ	ITJ	_	0	root	_	_
+2	gerne	gerne	ADV	ADV	_	0	root	_	_
+3	.	.	$.	$.	_	0	root	_	_
+
+
+1	Danke	Dank	N	NN	Masc|Dat|Sg	0	root	_	_
+2	.	.	$.	$.	_	0	root	_	_
+
+
+
+Stanford
+
+1	Bitte	Bitte	NOUN	PTKANT	Case=Nom|Number=Sing	0	root	_	_
+2	gerne	gerne	ADV	ADV	_	1	advmod	_	_
+3	.	.	PUNCT	$.	_	1	punct	_	_
+
+1	Danke	Dank	NOUN	PTKANT	Case=Nom|Number=Sing	0	root	_	_
+2	.	.	PUNCT	$.	_	1	punct	_	_
+
+
+
+NLPCube
+
+1	Bitte	bitte	PART	PTKANT	_	0	root	_
+2	gerne	gerne	ADV	ADV	_	1	advmod	SpaceAfter=No
+3	.	.	PUNCT	$.	_	1	punct	_
+1	Danke	dank	NOUN	PTKANT	Case=Nom|Gender=Masc|Number=Sing	0	root	SpaceAfter=No
+2	.	.	PUNCT	$.	_	1	punct	SpaceAfter=No
+
+
+SpaCy
+
+1	Bitte	_	PART	PTKANT	_	2	mo	_	_
+2	gerne	_	ADV	ADV	_	2	ROOT	_	_
+3	.	_	PUNCT	$.	_	2	punct	_	_
+1	Danke	_	PART	PTKANT	_	1	ROOT	_	_
+1	.	_	PUNCT	$.	_	1	ROOT	_	_
+
+
+------------------------------------------------
+
+KKC Mitarbeiter: für das Gespräch und ich wünsche dir einen schönen Tag
+
+
+CorZu
+
+1	für	für	PREP	APPR	Acc	6	pp	_	-
+2	das	die	ART	ART	Def|Neut|Nom|Sg	3	det	_	-
+3	Gespräch	Gespräch	N	NN	Neut|Nom|Sg	1	pn	_	-
+4	und	und	KON	KON	_	3	kon	_	-
+5	ich	ich	PRO	PPER	1|Sg|_|Nom	4	cj	_	-
+6	wünsche	wünschen	V	VVFIN	_|Sg|Pres|_	0	root	_	-
+7	dir	du	PRO	PRF	2|Sg|Dat	6	objd	_	-
+8	einen	eine	ART	ART	Indef|Masc|Acc|Sg	10	det	_	-
+9	schönen	schön	ADJA	ADJA	Pos|Masc|Acc|Sg|_|	10	attr	_	-
+10	Tag	Tag	N	NN	Masc|Acc|Sg	6	obja	_	-
+
+
+
+ParZu
+
+1	für	für	PREP	APPR	Acc	6	pp	_	_
+2	das	die	ART	ART	Def|Neut|Nom|Sg	3	det	_	_
+3	Gespräch	Gespräch	N	NN	Neut|Nom|Sg	1	pn	_	_
+4	und	und	KON	KON	_	3	kon	_	_
+5	ich	ich	PRO	PPER	1|Sg|_|Nom	4	cj	_	_
+6	wünsche	wünschen	V	VVFIN	_|Sg|Pres|_	0	root	_	_
+7	dir	du	PRO	PRF	2|Sg|Dat	6	objd	_	_
+8	einen	eine	ART	ART	Indef|Masc|Acc|Sg	10	det	_	_
+9	schönen	schön	ADJA	ADJA	Pos|Masc|Acc|Sg|_|	10	attr	_	_
+10	Tag	Tag	N	NN	Masc|Acc|Sg	6	obja	_	_
+
+
+
+Stanford
+
+1	für	für	ADP	APPR	_	3	case	_	_
+2	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Gespräch	Gespräch	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	wünsche	wünschen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	dir	dur	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+8	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	schönen	schön	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	10	amod	_	_
+10	Tag	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+
+
+
+NLPCube
+
+1	für	für	ADP	APPR	_	3	case	_
+2	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_
+3	Gespräch	gespräch	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obl	_
+4	und	und	CCONJ	KON	_	5	cc	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	conj	_
+6	wünsche	wünschen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_
+7	dir	dur	PRON	PIS	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	nsubj	_
+8	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_
+9	schönen	schön	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	10	amod	_
+10	Tag	tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	SpaceAfter=No
+
