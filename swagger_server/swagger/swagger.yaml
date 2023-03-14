@@ -1,0 +1,205 @@
+openapi: 3.0.0
+info:
+  title: Dependency Parse API
+  description: API to perform dependency parsing
+  contact:
+    email: souvik.mondal
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  version: 1.0.0
+servers:
+- url: /
+paths:
+  /text_to_conll:
+    get:
+      summary: Converts plain text to CoNLL-U
+      description: |
+        By passing in the text you can generate a CoNLL-U representation of the sentence
+      operationId: get_text_to_conllu
+      parameters:
+      - name: text
+        in: query
+        description: pass a sentence to generate CoNLL-U
+        required: true
+        style: form
+        explode: true
+        schema:
+          type: string
+      - name: tool
+        in: query
+        description: pass a tool to use
+        required: true
+        style: form
+        explode: true
+        schema:
+          type: string
+      responses:
+        "200":
+          description: CoNLL-U representation of the sentence
+          content:
+            text/plain:
+              schema:
+                type: string
+                x-content-type: text/plain
+        "400":
+          description: bad input parameter
+      x-openapi-router-controller: swagger_server.controllers.default_controller
+    post:
+      summary: Converts plain text to CoNLL-U
+      description: pass a sentence to generate CoNLL-U
+      operationId: post_text_to_conllu
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/body'
+            encoding:
+              text:
+                contentType: text/plain
+                style: form
+              tool:
+                contentType: text/plain
+                style: form
+      responses:
+        "200":
+          description: CoNLL-U representation of the sentence
+          content:
+            text/plain:
+              schema:
+                type: string
+                x-content-type: text/plain
+        "201":
+          description: Sentence Generated
+        "400":
+          description: invalid input, object invalid
+      x-openapi-router-controller: swagger_server.controllers.default_controller
+  /conll_to_dependency:
+    get:
+      summary: Converts CoNLL-U to Dependency Graph
+      description: |
+        By passing in the CoNLL-U string of a dependency parser, you can generate the Dependency parse Tree diagram
+      operationId: get_conllu_to_dependency
+      parameters:
+      - name: conllu
+        in: query
+        description: pass a CoNLL-U to generate Dependency Parse Tree
+        required: true
+        style: form
+        explode: true
+        schema:
+          type: string
+      responses:
+        "200":
+          description: The Dependency parse Tree
+          content:
+            image/svg+xml:
+              schema:
+                type: string
+                x-content-type: image/svg+xml
+        "400":
+          description: bad input parameter
+      x-openapi-router-controller: swagger_server.controllers.default_controller
+    post:
+      summary: Converts CoNLL-U to Dependency Parse Tree
+      description: pass a CoNLL-U to generate Dependency Parse Tree
+      operationId: post_conllu_to_dependency
+      requestBody:
+        description: CoNLL-U to Parse
+        content:
+          text/plain:
+            schema:
+              type: string
+      responses:
+        "200":
+          description: The Dependency parse Tree
+          content:
+            image/svg+xml:
+              schema:
+                type: string
+                x-content-type: image/svg+xml
+        "201":
+          description: Parse Tree Generated
+        "400":
+          description: invalid input, object invalid
+      x-openapi-router-controller: swagger_server.controllers.default_controller
+  /sentence_to_dependency:
+    get:
+      summary: Converts sentence to Dependency Graph
+      description: |
+        By passing in the sentence, you can generate the Dependency parse Tree diagram
+      operationId: get_sentence_to_dependency
+      parameters:
+      - name: sentence
+        in: query
+        description: pass a sentence to generate Dependency Parse Tree
+        required: true
+        style: form
+        explode: true
+        schema:
+          type: string
+      - name: tool
+        in: query
+        description: pass a tool generate Dependency Parse Tree
+        required: true
+        style: form
+        explode: true
+        schema:
+          type: string
+      responses:
+        "200":
+          description: The Dependency parse Tree
+          content:
+            image/svg+xml:
+              schema:
+                type: string
+                x-content-type: image/svg+xml
+        "400":
+          description: bad input parameter
+      x-openapi-router-controller: swagger_server.controllers.default_controller
+    post:
+      summary: Converts sentence to Dependency Parse Tree
+      description: pass a sentence to generate Dependency Parse Tree
+      operationId: post_sentence_to_dependency
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/body_1'
+            encoding:
+              sentence:
+                contentType: text/plain
+                style: form
+              tool:
+                contentType: text/plain
+                style: form
+      responses:
+        "200":
+          description: The Dependency parse Tree
+          content:
+            image/svg+xml:
+              schema:
+                type: string
+                x-content-type: image/svg+xml
+        "201":
+          description: Parse Tree Generated
+        "400":
+          description: invalid input, object invalid
+      x-openapi-router-controller: swagger_server.controllers.default_controller
+components:
+  schemas:
+    body:
+      type: object
+      properties:
+        text:
+          type: string
+        tool:
+          type: string
+    body_1:
+      type: object
+      properties:
+        sentence:
+          type: string
+        tool:
+          type: string
+
